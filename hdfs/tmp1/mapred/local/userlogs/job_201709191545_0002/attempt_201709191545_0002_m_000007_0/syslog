@@ -1,0 +1,12 @@
+2017-09-19 16:19:25,525 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-09-19 16:19:25,973 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2017-09-19 16:19:26,116 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : null
+2017-09-19 16:19:26,137 INFO org.apache.hadoop.mapred.MapTask: Processing split: hdfs://localhost:9000/user/Jocke/PiEstimator_TMP_3_141592654/in/part7:0+118
+2017-09-19 16:19:26,161 INFO org.apache.hadoop.mapred.MapTask: numReduceTasks: 1
+2017-09-19 16:19:26,168 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 100
+2017-09-19 16:19:26,244 INFO org.apache.hadoop.mapred.MapTask: data buffer = 79691776/99614720
+2017-09-19 16:19:26,244 INFO org.apache.hadoop.mapred.MapTask: record buffer = 262144/327680
+2017-09-19 16:19:26,253 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2017-09-19 16:19:26,257 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2017-09-19 16:19:26,262 INFO org.apache.hadoop.mapred.Task: Task:attempt_201709191545_0002_m_000007_0 is done. And is in the process of commiting
+2017-09-19 16:19:26,284 INFO org.apache.hadoop.mapred.Task: Task 'attempt_201709191545_0002_m_000007_0' done.

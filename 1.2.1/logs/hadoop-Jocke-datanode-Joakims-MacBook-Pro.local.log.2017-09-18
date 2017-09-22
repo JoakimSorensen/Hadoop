@@ -1,0 +1,6 @@
+2017-09-18 22:17:52,915 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded blk_2416152497181648046_1091
+2017-09-18 22:17:53,148 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Block report is due, and been waiting for it for 99976 seconds...
+2017-09-18 22:17:53,237 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 89ms
+2017-09-18 22:17:55,424 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 19 blocks took 3 msec to generate and 5 msecs for RPC and NN processing
+2017-09-18 22:31:38,495 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 1ms
+2017-09-18 22:31:41,495 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 19 blocks took 1 msec to generate and 0 msecs for RPC and NN processing

@@ -1,0 +1,37 @@
+2017-09-19 15:46:12,501 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-09-19 15:46:13,041 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2017-09-19 15:46:13,265 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : null
+2017-09-19 15:46:13,296 INFO org.apache.hadoop.mapred.ReduceTask: ShuffleRamManager: MemoryLimit=130652568, MaxSingleShuffleLimit=32663142
+2017-09-19 15:46:13,316 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Thread started: Thread for merging on-disk files
+2017-09-19 15:46:13,316 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Thread started: Thread for merging in memory files
+2017-09-19 15:46:13,316 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2017-09-19 15:46:13,319 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Thread started: Thread for polling Map Completion Events
+2017-09-19 15:46:13,319 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Need another 10 map output(s) where 0 is already in progress
+2017-09-19 15:46:13,320 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-19 15:46:18,321 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-19 15:46:18,730 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-19 15:46:18,771 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-19 15:46:18,800 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-19 15:46:18,839 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-19 15:46:18,871 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-19 15:46:23,922 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-19 15:46:23,943 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-19 15:46:23,959 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-19 15:46:23,977 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709191545_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-19 15:46:24,375 INFO org.apache.hadoop.mapred.ReduceTask: GetMapEventsThread exiting
+2017-09-19 15:46:24,376 INFO org.apache.hadoop.mapred.ReduceTask: getMapsEventsThread joined.
+2017-09-19 15:46:24,376 INFO org.apache.hadoop.mapred.ReduceTask: Closed ram manager
+2017-09-19 15:46:24,376 INFO org.apache.hadoop.mapred.ReduceTask: Interleaved on-disk merge complete: 0 files left.
+2017-09-19 15:46:24,376 INFO org.apache.hadoop.mapred.ReduceTask: In-memory merge complete: 10 files left.
+2017-09-19 15:46:24,523 INFO org.apache.hadoop.mapred.Merger: Merging 10 sorted segments
+2017-09-19 15:46:24,524 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 240 bytes
+2017-09-19 15:46:24,541 INFO org.apache.hadoop.mapred.ReduceTask: Merged 10 segments, 240 bytes to disk to satisfy reduce memory limit
+2017-09-19 15:46:24,542 INFO org.apache.hadoop.mapred.ReduceTask: Merging 1 files, 226 bytes from disk
+2017-09-19 15:46:24,542 INFO org.apache.hadoop.mapred.ReduceTask: Merging 0 segments, 0 bytes from memory into reduce
+2017-09-19 15:46:24,542 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2017-09-19 15:46:24,545 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 222 bytes
+2017-09-19 15:46:24,652 INFO org.apache.hadoop.mapred.Task: Task:attempt_201709191545_0001_r_000000_0 is done. And is in the process of commiting
+2017-09-19 15:46:25,664 INFO org.apache.hadoop.mapred.Task: Task attempt_201709191545_0001_r_000000_0 is allowed to commit now
+2017-09-19 15:46:25,683 INFO org.apache.hadoop.mapred.FileOutputCommitter: Saved output of task 'attempt_201709191545_0001_r_000000_0' to hdfs://localhost:9000/user/Jocke/PiEstimator_TMP_3_141592654/out
+2017-09-19 15:46:25,687 INFO org.apache.hadoop.mapred.Task: Task 'attempt_201709191545_0001_r_000000_0' done.
+2017-09-19 15:46:25,690 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1

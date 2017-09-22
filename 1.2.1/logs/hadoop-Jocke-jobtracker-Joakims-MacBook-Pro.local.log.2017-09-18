@@ -1,0 +1,20 @@
+2017-09-18 22:17:53,095 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2017-09-18 22:17:53,195 INFO org.apache.hadoop.mapred.JobTracker: Removing from userToJobsMap: job_201709171515_0001
+2017-09-18 22:17:53,734 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201709171515_0001' of user 'Jocke'
+2017-09-18 22:17:53,734 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /usr/local/Cellar/hadoop/1.2.1/libexec/../logs/job_201709171515_0001_conf.xml
+2017-09-18 22:17:54,055 INFO org.apache.hadoop.mapred.TaskInProgress: Error from attempt_201709171515_0002_r_000000_0: Task attempt_201709171515_0002_r_000000_0 failed to report status for 101338 seconds. Killing!
+2017-09-18 22:17:54,063 INFO org.apache.hadoop.mapred.TaskInProgress: Error from attempt_201709171515_0005_r_000000_0: Task attempt_201709171515_0005_r_000000_0 failed to report status for 101337 seconds. Killing!
+2017-09-18 22:17:54,065 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201709171515_0002_r_000000_1' to tip task_201709171515_0002_r_000000, for tracker 'tracker_172.30.1.7:localhost/127.0.0.1:55961'
+2017-09-18 22:17:54,066 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201709171515_0002_r_000000_0'
+2017-09-18 22:17:54,066 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201709171515_0005_r_000000_0'
+2017-09-18 22:17:54,372 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201709171515_0005_r_000000_1' to tip task_201709171515_0005_r_000000, for tracker 'tracker_172.30.1.7:localhost/127.0.0.1:55961'
+2017-09-18 22:52:25,258 INFO org.apache.hadoop.mapred.TaskInProgress: Error from attempt_201709171515_0002_r_000000_1: Shuffle Error: Exceeded MAX_FAILED_UNIQUE_FETCHES; bailing-out.
+2017-09-18 22:52:25,258 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201709171515_0002_r_000000_1'
+2017-09-18 22:52:25,258 INFO org.apache.hadoop.mapred.TaskInProgress: Error from attempt_201709171515_0005_r_000000_1: Shuffle Error: Exceeded MAX_FAILED_UNIQUE_FETCHES; bailing-out.
+2017-09-18 22:52:25,259 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201709171515_0005_r_000000_1'
+2017-09-18 22:52:25,259 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201709171515_0002_r_000000_1' to tip task_201709171515_0002_r_000000, for tracker 'tracker_172.30.1.7:localhost/127.0.0.1:55961'
+2017-09-18 22:52:25,567 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201709171515_0005_r_000000_1' to tip task_201709171515_0005_r_000000, for tracker 'tracker_172.30.1.7:localhost/127.0.0.1:55961'
+2017-09-18 22:52:28,320 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201709171515_0002_r_000000_2' to tip task_201709171515_0002_r_000000, for tracker 'tracker_172.30.1.7:localhost/127.0.0.1:55961'
+2017-09-18 22:52:28,321 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201709171515_0002_r_000000_1'
+2017-09-18 22:52:28,321 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201709171515_0005_r_000000_1'
+2017-09-18 22:52:28,632 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201709171515_0005_r_000000_2' to tip task_201709171515_0005_r_000000, for tracker 'tracker_172.30.1.7:localhost/127.0.0.1:55961'

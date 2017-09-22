@@ -1,0 +1,95 @@
+2017-09-22 09:08:49,787 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = Joakims-MacBook-Pro.local/218.38.137.27
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.1
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-1.2 -r 1503152; compiled by 'mattf' on Mon Jul 22 15:23:09 PDT 2013
+STARTUP_MSG:   java = 1.8.0_74
+************************************************************/
+2017-09-22 09:08:50,001 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2017-09-22 09:08:50,172 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2017-09-22 09:08:50,173 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2017-09-22 09:08:50,173 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: TaskTracker metrics system started
+2017-09-22 09:08:50,601 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-09-22 09:08:50,726 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2017-09-22 09:08:50,738 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2017-09-22 09:08:50,900 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2017-09-22 09:08:50,957 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2017-09-22 09:08:50,994 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
+2017-09-22 09:08:50,999 INFO org.apache.hadoop.mapred.TaskTracker: Starting tasktracker with owner as Jocke
+2017-09-22 09:08:51,000 INFO org.apache.hadoop.mapred.TaskTracker: Good mapred local directories are: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/local
+2017-09-22 09:08:51,035 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2017-09-22 09:08:51,039 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source TaskTrackerMetrics registered.
+2017-09-22 09:08:51,069 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2017-09-22 09:08:51,071 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort62146 registered.
+2017-09-22 09:08:51,071 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort62146 registered.
+2017-09-22 09:08:51,073 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-09-22 09:08:51,073 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 62146: starting
+2017-09-22 09:08:51,074 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 62146: starting
+2017-09-22 09:08:51,074 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 62146: starting
+2017-09-22 09:08:51,074 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 62146: starting
+2017-09-22 09:08:51,074 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 62146: starting
+2017-09-22 09:08:51,075 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: localhost/127.0.0.1:62146
+2017-09-22 09:08:51,075 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_218.38.137.27:localhost/127.0.0.1:62146
+2017-09-22 09:08:51,125 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_218.38.137.27:localhost/127.0.0.1:62146
+2017-09-22 09:08:51,127 INFO org.apache.hadoop.mapred.TaskTracker:  Using ResourceCalculatorPlugin : null
+2017-09-22 09:08:51,139 WARN org.apache.hadoop.util.ProcessTree: setsid is not available on this machine. So not using it.
+2017-09-22 09:08:51,139 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2017-09-22 09:08:51,153 INFO org.apache.hadoop.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2017-09-22 09:08:51,153 INFO org.apache.hadoop.mapred.TaskTracker: ProcessTree implementation is missing on this system. TaskMemoryManager is disabled.
+2017-09-22 09:08:51,160 INFO org.apache.hadoop.mapred.IndexCache: IndexCache created with max memory = 10485760
+2017-09-22 09:08:51,166 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ShuffleServerMetrics registered.
+2017-09-22 09:08:51,169 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50060
+2017-09-22 09:08:51,170 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50060 webServer.getConnectors()[0].getLocalPort() returned 50060
+2017-09-22 09:08:51,170 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50060
+2017-09-22 09:08:51,170 INFO org.mortbay.log: jetty-6.1.26
+2017-09-22 09:08:51,421 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50060
+2017-09-22 09:08:51,422 INFO org.apache.hadoop.mapred.TaskTracker: FILE_CACHE_SIZE for mapOutputServlet set to : 2000
+2017-09-22 09:08:51,427 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709171515_0002 for user-log deletion with retainTimeStamp:1506125331156
+2017-09-22 09:08:51,427 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709171515_0005 for user-log deletion with retainTimeStamp:1506125331156
+2017-09-22 09:08:51,427 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709171515_0006 for user-log deletion with retainTimeStamp:1506125331156
+2017-09-22 09:08:51,427 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709171515_0008 for user-log deletion with retainTimeStamp:1506125331156
+2017-09-22 09:08:51,427 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709191545_0001 for user-log deletion with retainTimeStamp:1506125331156
+2017-09-22 09:08:51,427 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709191545_0002 for user-log deletion with retainTimeStamp:1506125331156
+2017-09-22 09:08:51,427 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709192203_0001 for user-log deletion with retainTimeStamp:1506125331156
+2017-09-22 09:08:51,427 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709171515_0002 for user-log deletion with retainTimeStamp:1506125331158
+2017-09-22 09:08:51,428 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709171515_0005 for user-log deletion with retainTimeStamp:1506125331158
+2017-09-22 09:08:51,428 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709171515_0006 for user-log deletion with retainTimeStamp:1506125331158
+2017-09-22 09:08:51,428 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709171515_0008 for user-log deletion with retainTimeStamp:1506125331158
+2017-09-22 09:08:51,428 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709191545_0001 for user-log deletion with retainTimeStamp:1506125331158
+2017-09-22 09:08:51,428 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709191545_0002 for user-log deletion with retainTimeStamp:1506125331158
+2017-09-22 09:08:51,428 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201709192203_0001 for user-log deletion with retainTimeStamp:1506125331158
+2017-09-22 09:08:51,735 INFO org.apache.hadoop.mapred.TaskTracker: Failed to get system directory...
+2017-09-22 09:08:55,259 INFO org.apache.hadoop.mapred.TaskTracker: Failed to get system directory...
+2017-09-22 09:08:57,100 INFO org.apache.hadoop.mapred.TaskTracker: Failed to get system directory...
+2017-09-22 09:09:01,238 INFO org.apache.hadoop.mapred.TaskTracker: Failed to get system directory...
+2017-09-22 09:09:05,158 INFO org.apache.hadoop.mapred.TaskTracker: Failed to get system directory...
+2017-09-22 09:09:06,190 INFO org.apache.hadoop.mapred.TaskTracker: Failed to get system directory...
+2017-09-22 09:09:07,705 INFO org.apache.hadoop.mapred.TaskTracker: Failed to get system directory...
+2017-09-22 09:09:09,465 INFO org.apache.hadoop.mapred.TaskTracker: Failed to get system directory...
+2017-09-22 09:09:14,442 INFO org.apache.hadoop.mapred.TaskTracker: Failed to get system directory...
+2017-09-22 09:09:18,918 INFO org.apache.hadoop.mapred.TaskTracker: Failed to get system directory...
+2017-09-22 10:01:30,646 ERROR org.apache.hadoop.mapred.TaskTracker: Caught exception: java.io.IOException: Call to localhost/127.0.0.1:9001 failed on local exception: java.io.EOFException
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1150)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1118)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:229)
+	at org.apache.hadoop.mapred.$Proxy4.heartbeat(Unknown Source)
+	at org.apache.hadoop.mapred.TaskTracker.transmitHeartBeat(TaskTracker.java:2030)
+	at org.apache.hadoop.mapred.TaskTracker.offerService(TaskTracker.java:1824)
+	at org.apache.hadoop.mapred.TaskTracker.run(TaskTracker.java:2676)
+	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:3939)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:845)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:790)
+
+2017-09-22 10:01:30,647 INFO org.apache.hadoop.mapred.TaskTracker: Resending 'status' to 'localhost' with reponseId '10304
+2017-09-22 10:01:31,653 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9001. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+2017-09-22 10:01:32,657 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9001. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+2017-09-22 10:01:33,661 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9001. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+2017-09-22 10:01:34,666 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9001. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+2017-09-22 10:01:35,583 INFO org.apache.hadoop.mapred.TaskTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down TaskTracker at Joakims-MacBook-Pro.local/218.38.137.27
+************************************************************/

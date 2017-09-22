@@ -1,0 +1,20 @@
+2017-09-18 22:17:52,925 INFO org.apache.hadoop.hdfs.server.namenode.LeaseManager: Lease [Lease.  Holder: DFSClient_NONMAPREDUCE_-92555306_30, pendingcreates: 1] has expired hard limit
+2017-09-18 22:17:53,170 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Recovering lease=[Lease.  Holder: DFSClient_NONMAPREDUCE_-92555306_30, pendingcreates: 1], src=/user/Jocke/output1/_logs/history/job_201709171515_0002_1505634344879_Jocke_word+count
+2017-09-18 22:17:53,170 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/output1/_logs/history/job_201709171515_0002_1505634344879_Jocke_word+count from client DFSClient_NONMAPREDUCE_-92555306_30
+2017-09-18 22:17:53,172 WARN org.apache.hadoop.hdfs.StateChange: BLOCK* internalReleaseLease: No blocks found, lease removed for /user/Jocke/output1/_logs/history/job_201709171515_0002_1505634344879_Jocke_word+count
+2017-09-18 22:17:53,173 INFO org.apache.hadoop.hdfs.server.namenode.LeaseManager: Lease [Lease.  Holder: DFSClient_NONMAPREDUCE_1892874180_30, pendingcreates: 1] has expired hard limit
+2017-09-18 22:17:53,173 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Recovering lease=[Lease.  Holder: DFSClient_NONMAPREDUCE_1892874180_30, pendingcreates: 1], src=/user/Jocke/output1.2/_logs/history/job_201709171515_0005_1505634525708_Jocke_word+count
+2017-09-18 22:17:53,173 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/output1.2/_logs/history/job_201709171515_0005_1505634525708_Jocke_word+count from client DFSClient_NONMAPREDUCE_1892874180_30
+2017-09-18 22:17:53,173 WARN org.apache.hadoop.hdfs.StateChange: BLOCK* internalReleaseLease: No blocks found, lease removed for /user/Jocke/output1.2/_logs/history/job_201709171515_0005_1505634525708_Jocke_word+count
+2017-09-18 22:17:55,422 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 127.0.0.1:50010, blocks: 19, processing time: 1 msecs
+2017-09-18 22:20:20,364 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2017-09-18 22:20:20,364 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 110 Total time for transactions(ms): 2 Number of transactions batched in Syncs: 0 Number of syncs: 66 SyncTimes(ms): 54 
+2017-09-18 22:20:20,365 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=14863, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-18 22:20:20,366 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 14863, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-18 22:20:20,775 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2017-09-18 22:20:20,786 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 0d65979b908e5fa7302bf7415d2a12fd
+2017-09-18 22:20:20,787 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2017-09-18 22:20:20,787 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 4 
+2017-09-18 22:20:20,787 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-18 22:20:20,788 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-18 22:31:41,495 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 127.0.0.1:50010, blocks: 19, processing time: 0 msecs

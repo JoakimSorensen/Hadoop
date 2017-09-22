@@ -1,0 +1,38 @@
+2017-09-20 08:42:04,248 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* heartbeatCheck: lost heartbeat from 127.0.0.1:50010
+2017-09-20 08:42:04,400 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:50010
+2017-09-20 08:42:04,503 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* registerDatanode: node registration from 127.0.0.1:50010 storage DS-804248980-192.168.0.5-50010-1505622244595
+2017-09-20 08:42:04,504 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:50010
+2017-09-20 08:42:04,505 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:50010
+2017-09-20 08:42:04,530 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blocksBeingWrittenReport: from 127.0.0.1:50010 0 blocks
+2017-09-20 08:42:06,634 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-9067984877918059612_1101 size 142726
+2017-09-20 08:42:06,636 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_4808030241158380560_1103 size 116
+2017-09-20 08:42:06,636 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-7945243533603436120_1096 size 33997
+2017-09-20 08:42:06,636 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2416152497181648046_1091 size 52532
+2017-09-20 08:42:06,636 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_151124932730238434_1082 size 142726
+2017-09-20 08:42:06,637 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_1746090900473579443_1073 size 12
+2017-09-20 08:42:06,637 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-6229867101034233188_1083 size 142726
+2017-09-20 08:42:06,637 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_6981086643243555080_1003 size 4
+2017-09-20 08:42:06,637 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2452679171960913342_1095 size 26
+2017-09-20 08:42:06,637 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_4158854555945284521_1153 size 4
+2017-09-20 08:42:06,637 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-6807645573475277719_1093 size 142726
+2017-09-20 08:42:06,637 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-1332615584602778695_1104 size 26
+2017-09-20 08:42:06,637 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-2035295043647101576_1081 size 52530
+2017-09-20 08:42:06,638 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_5105055954242482678_1092 size 2463
+2017-09-20 08:42:06,638 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_1116127002475603810_1105 size 33997
+2017-09-20 08:42:06,638 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_8564810556156039149_1094 size 116
+2017-09-20 08:42:06,638 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-8263866324040161233_1102 size 142726
+2017-09-20 08:42:06,638 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 127.0.0.1:50010, blocks: 17, processing time: 9 msecs
+2017-09-20 08:44:11,404 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2017-09-20 08:44:11,405 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-09-20 08:44:11,405 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-20 08:44:11,405 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-20 08:44:11,896 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2017-09-20 08:44:11,906 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 356e2adb6f8afab278ca8ca7f688fe2c
+2017-09-20 08:44:11,907 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2017-09-20 08:44:11,907 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 4 
+2017-09-20 08:44:11,907 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-20 08:44:11,908 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-20 08:50:06,253 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at Joakims-MacBook-Pro.local/192.168.0.5
+************************************************************/

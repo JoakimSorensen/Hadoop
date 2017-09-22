@@ -1,0 +1,13 @@
+2017-09-19 22:04:41,294 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-09-19 22:04:41,566 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2017-09-19 22:04:41,652 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : null
+2017-09-19 22:04:41,668 INFO org.apache.hadoop.mapred.MapTask: Processing split: hdfs://localhost:9000/user/Jocke/PiEstimator_TMP_3_141592654/in/part0:0+118
+2017-09-19 22:04:41,688 INFO org.apache.hadoop.mapred.MapTask: numReduceTasks: 1
+2017-09-19 22:04:41,697 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 100
+2017-09-19 22:04:41,754 INFO org.apache.hadoop.mapred.MapTask: data buffer = 79691776/99614720
+2017-09-19 22:04:41,755 INFO org.apache.hadoop.mapred.MapTask: record buffer = 262144/327680
+2017-09-19 22:04:41,763 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2017-09-19 22:04:41,769 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2017-09-19 22:04:41,772 INFO org.apache.hadoop.mapred.Task: Task:attempt_201709192203_0001_m_000000_0 is done. And is in the process of commiting
+2017-09-19 22:04:41,781 INFO org.apache.hadoop.mapred.Task: Task 'attempt_201709192203_0001_m_000000_0' done.
+2017-09-19 22:04:41,797 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1

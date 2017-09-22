@@ -1,0 +1,225 @@
+2017-09-18 22:52:29,778 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-09-18 22:52:30,485 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2017-09-18 22:52:30,684 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : null
+2017-09-18 22:52:30,710 INFO org.apache.hadoop.mapred.ReduceTask: ShuffleRamManager: MemoryLimit=130652568, MaxSingleShuffleLimit=32663142
+2017-09-18 22:52:30,717 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Thread started: Thread for merging on-disk files
+2017-09-18 22:52:30,717 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Thread started: Thread for merging in memory files
+2017-09-18 22:52:30,717 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Thread waiting: Thread for merging on-disk files
+2017-09-18 22:52:30,718 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Thread started: Thread for polling Map Completion Events
+2017-09-18 22:52:30,718 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 0 is already in progress
+2017-09-18 22:52:30,719 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 22:52:35,728 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 22:53:31,916 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 22:53:31,917 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 22:54:32,122 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 22:54:32,122 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 22:55:32,325 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 22:55:32,325 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 22:55:36,012 WARN org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 copy failed: attempt_201709171515_0002_m_000000_0 from 172.30.1.7
+2017-09-18 22:55:36,013 WARN org.apache.hadoop.mapred.ReduceTask: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getInputStream(ReduceTask.java:1636)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.setupSecureConnection(ReduceTask.java:1593)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getMapOutput(ReduceTask.java:1493)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.copyOutput(ReduceTask.java:1401)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.run(ReduceTask.java:1333)
+
+2017-09-18 22:55:36,014 INFO org.apache.hadoop.mapred.ReduceTask: Task attempt_201709171515_0002_r_000000_2: Failed fetch #1 from attempt_201709171515_0002_m_000000_0
+2017-09-18 22:55:36,014 WARN org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 adding host 172.30.1.7 to penalty box, next contact in 12 seconds
+2017-09-18 22:55:36,014 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2: Got 1 map-outputs from previous failures
+2017-09-18 22:55:51,035 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 22:56:33,178 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 22:56:33,179 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 22:57:33,367 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 22:57:33,368 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 22:58:33,571 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 22:58:33,571 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 22:58:51,079 WARN org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 copy failed: attempt_201709171515_0002_m_000000_0 from 172.30.1.7
+2017-09-18 22:58:51,080 WARN org.apache.hadoop.mapred.ReduceTask: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getInputStream(ReduceTask.java:1636)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.setupSecureConnection(ReduceTask.java:1593)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getMapOutput(ReduceTask.java:1493)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.copyOutput(ReduceTask.java:1401)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.run(ReduceTask.java:1333)
+
+2017-09-18 22:58:51,080 INFO org.apache.hadoop.mapred.ReduceTask: Task attempt_201709171515_0002_r_000000_2: Failed fetch #2 from attempt_201709171515_0002_m_000000_0
+2017-09-18 22:58:51,080 WARN org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 adding host 172.30.1.7 to penalty box, next contact in 16 seconds
+2017-09-18 22:58:51,080 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2: Got 1 map-outputs from previous failures
+2017-09-18 22:59:11,106 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 22:59:35,186 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 22:59:35,186 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:00:35,381 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 23:00:35,381 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:01:35,604 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 23:01:35,604 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:02:11,150 WARN org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 copy failed: attempt_201709171515_0002_m_000000_0 from 172.30.1.7
+2017-09-18 23:02:11,152 WARN org.apache.hadoop.mapred.ReduceTask: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getInputStream(ReduceTask.java:1636)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.setupSecureConnection(ReduceTask.java:1593)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getMapOutput(ReduceTask.java:1493)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.copyOutput(ReduceTask.java:1401)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.run(ReduceTask.java:1333)
+
+2017-09-18 23:02:11,152 INFO org.apache.hadoop.mapred.ReduceTask: Task attempt_201709171515_0002_r_000000_2: Failed fetch #3 from attempt_201709171515_0002_m_000000_0
+2017-09-18 23:02:11,152 WARN org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 adding host 172.30.1.7 to penalty box, next contact in 21 seconds
+2017-09-18 23:02:11,152 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2: Got 1 map-outputs from previous failures
+2017-09-18 23:02:36,169 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 0 is already in progress
+2017-09-18 23:02:36,169 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:03:36,261 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 23:03:36,261 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:04:36,359 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 23:04:36,359 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:05:36,187 WARN org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 copy failed: attempt_201709171515_0002_m_000000_0 from 172.30.1.7
+2017-09-18 23:05:36,187 WARN org.apache.hadoop.mapred.ReduceTask: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getInputStream(ReduceTask.java:1636)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.setupSecureConnection(ReduceTask.java:1593)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getMapOutput(ReduceTask.java:1493)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.copyOutput(ReduceTask.java:1401)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.run(ReduceTask.java:1333)
+
+2017-09-18 23:05:36,187 INFO org.apache.hadoop.mapred.ReduceTask: Task attempt_201709171515_0002_r_000000_2: Failed fetch #4 from attempt_201709171515_0002_m_000000_0
+2017-09-18 23:05:36,187 WARN org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 adding host 172.30.1.7 to penalty box, next contact in 28 seconds
+2017-09-18 23:05:36,187 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2: Got 1 map-outputs from previous failures
+2017-09-18 23:05:41,188 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 0 is already in progress
+2017-09-18 23:05:41,188 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (1 slow hosts and0 dup hosts)
+2017-09-18 23:05:41,188 INFO org.apache.hadoop.mapred.ReduceTask: Penalized(slow) Hosts: 
+2017-09-18 23:05:41,188 INFO org.apache.hadoop.mapred.ReduceTask: 172.30.1.7 Will be considered after: 23 seconds.
+2017-09-18 23:06:06,198 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:06:42,260 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 23:06:42,261 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:07:42,421 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 23:07:42,422 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:08:42,635 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 23:08:42,636 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:09:06,233 WARN org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 copy failed: attempt_201709171515_0002_m_000000_0 from 172.30.1.7
+2017-09-18 23:09:06,233 WARN org.apache.hadoop.mapred.ReduceTask: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getInputStream(ReduceTask.java:1636)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.setupSecureConnection(ReduceTask.java:1593)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getMapOutput(ReduceTask.java:1493)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.copyOutput(ReduceTask.java:1401)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.run(ReduceTask.java:1333)
+
+2017-09-18 23:09:06,233 INFO org.apache.hadoop.mapred.ReduceTask: Task attempt_201709171515_0002_r_000000_2: Failed fetch #5 from attempt_201709171515_0002_m_000000_0
+2017-09-18 23:09:06,233 WARN org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 adding host 172.30.1.7 to penalty box, next contact in 37 seconds
+2017-09-18 23:09:06,233 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2: Got 1 map-outputs from previous failures
+2017-09-18 23:09:46,289 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 0 is already in progress
+2017-09-18 23:09:46,289 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:10:46,484 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 23:10:46,484 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:11:46,625 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 23:11:46,625 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:12:46,316 WARN org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 copy failed: attempt_201709171515_0002_m_000000_0 from 172.30.1.7
+2017-09-18 23:12:46,316 WARN org.apache.hadoop.mapred.ReduceTask: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getInputStream(ReduceTask.java:1636)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.setupSecureConnection(ReduceTask.java:1593)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.getMapOutput(ReduceTask.java:1493)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.copyOutput(ReduceTask.java:1401)
+	at org.apache.hadoop.mapred.ReduceTask$ReduceCopier$MapOutputCopier.run(ReduceTask.java:1333)
+
+2017-09-18 23:12:46,317 INFO org.apache.hadoop.mapred.ReduceTask: Task attempt_201709171515_0002_r_000000_2: Failed fetch #6 from attempt_201709171515_0002_m_000000_0
+2017-09-18 23:12:46,317 WARN org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 adding host 172.30.1.7 to penalty box, next contact in 48 seconds
+2017-09-18 23:12:46,317 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2: Got 1 map-outputs from previous failures
+2017-09-18 23:12:51,321 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 0 is already in progress
+2017-09-18 23:12:51,321 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (1 slow hosts and0 dup hosts)
+2017-09-18 23:12:51,321 INFO org.apache.hadoop.mapred.ReduceTask: Penalized(slow) Hosts: 
+2017-09-18 23:12:51,321 INFO org.apache.hadoop.mapred.ReduceTask: 172.30.1.7 Will be considered after: 43 seconds.
+2017-09-18 23:13:36,350 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:13:52,381 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 23:13:52,381 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2017-09-18 23:14:52,480 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Need another 1 map output(s) where 1 is already in progress
+2017-09-18 23:14:52,480 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201709171515_0002_r_000000_2 Scheduled 0 outputs (0 slow hosts and0 dup hosts)

@@ -1,0 +1,13 @@
+2017-09-17 16:48:48,695 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-09-17 16:48:48,979 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2017-09-17 16:48:49,068 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : null
+2017-09-17 16:48:49,090 INFO org.apache.hadoop.mapred.MapTask: Processing split: hdfs://localhost:9000/user/Jocke/input1.txt:0+12
+2017-09-17 16:48:49,098 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 100
+2017-09-17 16:48:49,149 INFO org.apache.hadoop.mapred.MapTask: data buffer = 79691776/99614720
+2017-09-17 16:48:49,149 INFO org.apache.hadoop.mapred.MapTask: record buffer = 262144/327680
+2017-09-17 16:48:49,158 WARN org.apache.hadoop.io.compress.snappy.LoadSnappy: Snappy native library not loaded
+2017-09-17 16:48:49,166 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2017-09-17 16:48:49,172 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2017-09-17 16:48:49,174 INFO org.apache.hadoop.mapred.Task: Task:attempt_201709171515_0005_m_000000_0 is done. And is in the process of commiting
+2017-09-17 16:48:49,182 INFO org.apache.hadoop.mapred.Task: Task 'attempt_201709171515_0005_m_000000_0' done.
+2017-09-17 16:48:49,199 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1

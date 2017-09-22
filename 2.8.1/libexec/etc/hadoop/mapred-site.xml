@@ -1,0 +1,8 @@
+<!-- This file was added by Joakim -->
+
+<configuration>
+<property>
+<name>mapred.job.tracker</name>
+<value>localhost:9010</value>
+</property>
+</configuration>

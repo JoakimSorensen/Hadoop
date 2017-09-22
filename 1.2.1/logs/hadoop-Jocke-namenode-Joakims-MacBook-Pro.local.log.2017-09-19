@@ -1,0 +1,768 @@
+2017-09-19 00:25:22,423 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2017-09-19 00:25:22,424 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-09-19 00:25:22,424 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 00:25:22,426 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 13:42:28,728 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* heartbeatCheck: lost heartbeat from 127.0.0.1:50010
+2017-09-19 13:42:29,380 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:50010
+2017-09-19 13:42:29,520 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* registerDatanode: node registration from 127.0.0.1:50010 storage DS-804248980-192.168.0.5-50010-1505622244595
+2017-09-19 13:42:29,521 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:50010
+2017-09-19 13:42:29,531 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:50010
+2017-09-19 13:42:29,608 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blocksBeingWrittenReport: from 127.0.0.1:50010 0 blocks
+2017-09-19 13:42:30,585 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-1130890331642114665_1078 size 134
+2017-09-19 13:42:30,585 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-1302620438119018458_1085 size 115
+2017-09-19 13:42:30,586 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-7571249480227742408_1060 size 4
+2017-09-19 13:42:30,586 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2416152497181648046_1091 size 52532
+2017-09-19 13:42:30,586 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-1045501796128652016_1084 size 142726
+2017-09-19 13:42:30,586 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_151124932730238434_1082 size 142726
+2017-09-19 13:42:30,586 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-1645778903013372522_1088 size 134
+2017-09-19 13:42:30,586 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-8015655616093342312_1089 size 106
+2017-09-19 13:42:30,586 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_1746090900473579443_1073 size 12
+2017-09-19 13:42:30,586 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2500513121684492952_1087 size 33997
+2017-09-19 13:42:30,586 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-242341638778670974_1075 size 115
+2017-09-19 13:42:30,586 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-6229867101034233188_1083 size 142726
+2017-09-19 13:42:30,586 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_6981086643243555080_1003 size 4
+2017-09-19 13:42:30,587 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_7630394912037111507_1079 size 106
+2017-09-19 13:42:30,587 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-851754642780408033_1074 size 142726
+2017-09-19 13:42:30,587 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-2035295043647101576_1081 size 52530
+2017-09-19 13:42:30,587 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-2173872455544890366_1077 size 33995
+2017-09-19 13:42:30,587 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_873242504172878865_1086 size 24
+2017-09-19 13:42:30,587 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-3321398298826821709_1076 size 24
+2017-09-19 13:42:30,587 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 127.0.0.1:50010, blocks: 19, processing time: 5 msecs
+2017-09-19 13:42:33,688 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2017-09-19 13:42:33,703 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: ecd8b3204d3002f8af6f502e20300f2b
+2017-09-19 13:42:33,708 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2017-09-19 13:42:33,709 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 3 
+2017-09-19 13:42:33,711 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 13:42:33,712 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 13:47:33,752 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2017-09-19 13:47:33,752 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-09-19 13:47:33,752 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 13:47:33,752 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 13:47:33,941 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2017-09-19 13:47:33,945 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 2c23b20ec69142504dc3f156a9542e70
+2017-09-19 13:47:33,946 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2017-09-19 13:47:33,946 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 3 
+2017-09-19 13:47:33,946 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 13:47:33,947 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 13:56:40,272 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 127.0.0.1:50010, blocks: 19, processing time: 0 msecs
+2017-09-19 14:20:06,561 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 1 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-09-19 14:20:06,592 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:Jocke cause:org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException: No lease on /user/Jocke/output1/_logs/history/job_201709171515_0002_1505634344879_Jocke_word+count File is not open for writing. Holder DFSClient_NONMAPREDUCE_-92555306_30 does not have any open files
+2017-09-19 14:20:06,606 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9000, call addBlock(/user/Jocke/output1/_logs/history/job_201709171515_0002_1505634344879_Jocke_word+count, DFSClient_NONMAPREDUCE_-92555306_30, null) from 127.0.0.1:60302: error: org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException: No lease on /user/Jocke/output1/_logs/history/job_201709171515_0002_1505634344879_Jocke_word+count File is not open for writing. Holder DFSClient_NONMAPREDUCE_-92555306_30 does not have any open files
+org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException: No lease on /user/Jocke/output1/_logs/history/job_201709171515_0002_1505634344879_Jocke_word+count File is not open for writing. Holder DFSClient_NONMAPREDUCE_-92555306_30 does not have any open files
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkLease(FSNamesystem.java:2007)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkLease(FSNamesystem.java:1990)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1899)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:783)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:587)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1432)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1428)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1190)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1426)
+2017-09-19 14:20:06,645 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-1130890331642114665 to 127.0.0.1:50010 
+2017-09-19 14:20:06,645 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_7630394912037111507 to 127.0.0.1:50010 
+2017-09-19 14:20:06,651 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-851754642780408033 to 127.0.0.1:50010 
+2017-09-19 14:20:06,651 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-242341638778670974 to 127.0.0.1:50010 
+2017-09-19 14:20:06,651 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-3321398298826821709 to 127.0.0.1:50010 
+2017-09-19 14:20:06,651 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-2173872455544890366 to 127.0.0.1:50010 
+2017-09-19 14:20:06,960 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:Jocke cause:org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException: No lease on /user/Jocke/output1.2/_logs/history/job_201709171515_0005_1505634525708_Jocke_word+count File is not open for writing. Holder DFSClient_NONMAPREDUCE_1892874180_30 does not have any open files
+2017-09-19 14:20:06,960 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9000, call addBlock(/user/Jocke/output1.2/_logs/history/job_201709171515_0005_1505634525708_Jocke_word+count, DFSClient_NONMAPREDUCE_1892874180_30, null) from 127.0.0.1:60303: error: org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException: No lease on /user/Jocke/output1.2/_logs/history/job_201709171515_0005_1505634525708_Jocke_word+count File is not open for writing. Holder DFSClient_NONMAPREDUCE_1892874180_30 does not have any open files
+org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException: No lease on /user/Jocke/output1.2/_logs/history/job_201709171515_0005_1505634525708_Jocke_word+count File is not open for writing. Holder DFSClient_NONMAPREDUCE_1892874180_30 does not have any open files
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkLease(FSNamesystem.java:2007)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkLease(FSNamesystem.java:1990)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1899)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:783)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:587)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1432)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1428)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1190)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1426)
+2017-09-19 14:20:06,966 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-1645778903013372522 to 127.0.0.1:50010 
+2017-09-19 14:20:06,966 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-8015655616093342312 to 127.0.0.1:50010 
+2017-09-19 14:20:06,970 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-1045501796128652016 to 127.0.0.1:50010 
+2017-09-19 14:20:06,971 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-1302620438119018458 to 127.0.0.1:50010 
+2017-09-19 14:20:06,971 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_873242504172878865 to 127.0.0.1:50010 
+2017-09-19 14:20:06,971 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_2500513121684492952 to 127.0.0.1:50010 
+2017-09-19 14:20:07,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 127.0.0.1:50010 to delete  blk_-1130890331642114665_1078 blk_-2173872455544890366_1077 blk_-1302620438119018458_1085 blk_873242504172878865_1086 blk_-1045501796128652016_1084 blk_-1645778903013372522_1088 blk_-8015655616093342312_1089 blk_2500513121684492952_1087 blk_-242341638778670974_1075 blk_7630394912037111507_1079 blk_-851754642780408033_1074 blk_-3321398298826821709_1076
+2017-09-19 14:54:48,969 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2017-09-19 14:54:48,970 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 6 Total time for transactions(ms): 1 Number of transactions batched in Syncs: 0 Number of syncs: 6 SyncTimes(ms): 7 
+2017-09-19 14:54:48,970 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=510, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 14:54:48,970 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 510, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 14:54:49,073 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2017-09-19 14:54:49,079 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 5cfa552248d8f55555e54c44782996f3
+2017-09-19 14:54:49,080 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2017-09-19 14:54:49,080 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 4 
+2017-09-19 14:54:49,080 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 14:54:49,081 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 14:55:28,315 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/inputwc.txt. blk_5105055954242482678_1092
+2017-09-19 14:55:28,347 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_5105055954242482678_1092 size 2463
+2017-09-19 14:55:28,356 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/inputwc.txt from client DFSClient_NONMAPREDUCE_614846370_1
+2017-09-19 14:55:28,357 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/inputwc.txt is closed by DFSClient_NONMAPREDUCE_614846370_1
+2017-09-19 14:56:25,799 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 5 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 2 SyncTimes(ms): 4 
+2017-09-19 14:56:25,830 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.jar. blk_-6807645573475277719_1093
+2017-09-19 14:56:25,868 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-6807645573475277719_1093 size 142726
+2017-09-19 14:56:25,873 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.jar from client DFSClient_NONMAPREDUCE_-1287823739_1
+2017-09-19 14:56:25,873 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.jar is closed by DFSClient_NONMAPREDUCE_-1287823739_1
+2017-09-19 14:56:25,877 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.jar. New replication is 10
+2017-09-19 14:56:26,072 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.split. New replication is 10
+2017-09-19 14:56:26,076 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.split. blk_8564810556156039149_1094
+2017-09-19 14:56:26,084 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_8564810556156039149_1094 size 116
+2017-09-19 14:56:26,085 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.split from client DFSClient_NONMAPREDUCE_-1287823739_1
+2017-09-19 14:56:26,085 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.split is closed by DFSClient_NONMAPREDUCE_-1287823739_1
+2017-09-19 14:56:26,091 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.splitmetainfo. blk_2452679171960913342_1095
+2017-09-19 14:56:26,096 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2452679171960913342_1095 size 26
+2017-09-19 14:56:26,097 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.splitmetainfo from client DFSClient_NONMAPREDUCE_-1287823739_1
+2017-09-19 14:56:26,097 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.splitmetainfo is closed by DFSClient_NONMAPREDUCE_-1287823739_1
+2017-09-19 14:56:26,188 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.xml. blk_-7945243533603436120_1096
+2017-09-19 14:56:26,195 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-7945243533603436120_1096 size 33997
+2017-09-19 14:56:26,198 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.xml from client DFSClient_NONMAPREDUCE_-1287823739_1
+2017-09-19 14:56:26,198 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0006/job.xml is closed by DFSClient_NONMAPREDUCE_-1287823739_1
+2017-09-19 14:56:26,208 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709171515_0006/job-info. blk_5193507875407183790_1097
+2017-09-19 14:56:26,214 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_5193507875407183790_1097 size 134
+2017-09-19 14:56:26,215 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709171515_0006/job-info from client DFSClient_NONMAPREDUCE_-1130123778_1
+2017-09-19 14:56:26,215 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709171515_0006/job-info is closed by DFSClient_NONMAPREDUCE_-1130123778_1
+2017-09-19 14:56:26,220 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709171515_0006/jobToken. blk_-5887987021910814200_1098
+2017-09-19 14:56:26,224 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-5887987021910814200_1098 size 106
+2017-09-19 14:56:26,225 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709171515_0006/jobToken from client DFSClient_NONMAPREDUCE_-1130123778_1
+2017-09-19 14:56:26,225 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709171515_0006/jobToken is closed by DFSClient_NONMAPREDUCE_-1130123778_1
+2017-09-19 14:56:26,293 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/outputwc/_logs/history/job_201709171515_0006_conf.xml. blk_207211036015805864_1100
+2017-09-19 14:56:26,302 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_207211036015805864_1100 size 52532
+2017-09-19 14:56:26,307 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/outputwc/_logs/history/job_201709171515_0006_conf.xml from client DFSClient_NONMAPREDUCE_666569118_35
+2017-09-19 14:56:26,307 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/outputwc/_logs/history/job_201709171515_0006_conf.xml is closed by DFSClient_NONMAPREDUCE_666569118_35
+2017-09-19 14:56:41,172 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 127.0.0.1:50010, blocks: 15, processing time: 0 msecs
+2017-09-19 14:57:31,145 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 49 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 28 SyncTimes(ms): 17 
+2017-09-19 14:57:31,176 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0007/job.jar. blk_-9067984877918059612_1101
+2017-09-19 14:57:31,211 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-9067984877918059612_1101 size 142726
+2017-09-19 14:57:31,217 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0007/job.jar from client DFSClient_NONMAPREDUCE_-1979511096_1
+2017-09-19 14:57:31,217 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0007/job.jar is closed by DFSClient_NONMAPREDUCE_-1979511096_1
+2017-09-19 14:57:31,218 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0007/job.jar. New replication is 10
+2017-09-19 14:58:37,805 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 57 Total time for transactions(ms): 1 Number of transactions batched in Syncs: 0 Number of syncs: 34 SyncTimes(ms): 18 
+2017-09-19 14:58:37,806 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_207211036015805864 to 127.0.0.1:50010 
+2017-09-19 14:58:39,669 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 127.0.0.1:50010 to delete  blk_207211036015805864_1100
+2017-09-19 14:58:45,760 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.jar. blk_-8263866324040161233_1102
+2017-09-19 14:58:45,794 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-8263866324040161233_1102 size 142726
+2017-09-19 14:58:45,803 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.jar from client DFSClient_NONMAPREDUCE_-488232012_1
+2017-09-19 14:58:45,804 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.jar is closed by DFSClient_NONMAPREDUCE_-488232012_1
+2017-09-19 14:58:45,805 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.jar. New replication is 10
+2017-09-19 14:58:46,072 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.split. New replication is 10
+2017-09-19 14:58:46,076 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.split. blk_4808030241158380560_1103
+2017-09-19 14:58:46,087 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_4808030241158380560_1103 size 116
+2017-09-19 14:58:46,088 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.split from client DFSClient_NONMAPREDUCE_-488232012_1
+2017-09-19 14:58:46,089 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.split is closed by DFSClient_NONMAPREDUCE_-488232012_1
+2017-09-19 14:58:46,096 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.splitmetainfo. blk_-1332615584602778695_1104
+2017-09-19 14:58:46,101 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-1332615584602778695_1104 size 26
+2017-09-19 14:58:46,102 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.splitmetainfo from client DFSClient_NONMAPREDUCE_-488232012_1
+2017-09-19 14:58:46,103 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.splitmetainfo is closed by DFSClient_NONMAPREDUCE_-488232012_1
+2017-09-19 14:58:46,198 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.xml. blk_1116127002475603810_1105
+2017-09-19 14:58:46,206 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_1116127002475603810_1105 size 33997
+2017-09-19 14:58:46,208 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.xml from client DFSClient_NONMAPREDUCE_-488232012_1
+2017-09-19 14:58:46,208 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709171515_0008/job.xml is closed by DFSClient_NONMAPREDUCE_-488232012_1
+2017-09-19 14:58:46,217 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709171515_0008/job-info. blk_1802790208170207706_1106
+2017-09-19 14:58:46,221 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_1802790208170207706_1106 size 134
+2017-09-19 14:58:46,221 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709171515_0008/job-info from client DFSClient_NONMAPREDUCE_-1130123778_1
+2017-09-19 14:58:46,222 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709171515_0008/job-info is closed by DFSClient_NONMAPREDUCE_-1130123778_1
+2017-09-19 14:58:46,225 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709171515_0008/jobToken. blk_5585237648867852274_1107
+2017-09-19 14:58:46,230 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_5585237648867852274_1107 size 106
+2017-09-19 14:58:46,231 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709171515_0008/jobToken from client DFSClient_NONMAPREDUCE_-1130123778_1
+2017-09-19 14:58:46,232 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709171515_0008/jobToken is closed by DFSClient_NONMAPREDUCE_-1130123778_1
+2017-09-19 14:58:46,273 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/outputwc/_logs/history/job_201709171515_0008_conf.xml. blk_-6623605251204443998_1109
+2017-09-19 14:58:46,277 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-6623605251204443998_1109 size 52532
+2017-09-19 14:58:46,278 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/outputwc/_logs/history/job_201709171515_0008_conf.xml from client DFSClient_NONMAPREDUCE_1082022361_29
+2017-09-19 14:58:46,278 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/outputwc/_logs/history/job_201709171515_0008_conf.xml is closed by DFSClient_NONMAPREDUCE_1082022361_29
+2017-09-19 14:59:33,237 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-6623605251204443998 to 127.0.0.1:50010 
+2017-09-19 14:59:33,725 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 127.0.0.1:50010 to delete  blk_-6623605251204443998_1109
+2017-09-19 15:06:48,786 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:Jocke cause:org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException: No lease on /user/Jocke/outputwc/_logs/history/job_201709171515_0006_1505800586226_Jocke_word+count File does not exist. Holder DFSClient_NONMAPREDUCE_666569118_35 does not have any open files
+2017-09-19 15:06:48,786 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9000, call addBlock(/user/Jocke/outputwc/_logs/history/job_201709171515_0006_1505800586226_Jocke_word+count, DFSClient_NONMAPREDUCE_666569118_35, null) from 127.0.0.1:49200: error: org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException: No lease on /user/Jocke/outputwc/_logs/history/job_201709171515_0006_1505800586226_Jocke_word+count File does not exist. Holder DFSClient_NONMAPREDUCE_666569118_35 does not have any open files
+org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException: No lease on /user/Jocke/outputwc/_logs/history/job_201709171515_0006_1505800586226_Jocke_word+count File does not exist. Holder DFSClient_NONMAPREDUCE_666569118_35 does not have any open files
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkLease(FSNamesystem.java:1999)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkLease(FSNamesystem.java:1990)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1899)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:783)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:587)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1432)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1428)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1190)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1426)
+2017-09-19 15:06:48,789 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:Jocke cause:org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException: No lease on /user/Jocke/outputwc/_logs/history/job_201709171515_0008_1505800726232_Jocke_word+count File does not exist. Holder DFSClient_NONMAPREDUCE_1082022361_29 does not have any open files
+2017-09-19 15:06:48,789 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9000, call addBlock(/user/Jocke/outputwc/_logs/history/job_201709171515_0008_1505800726232_Jocke_word+count, DFSClient_NONMAPREDUCE_1082022361_29, null) from 127.0.0.1:49197: error: org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException: No lease on /user/Jocke/outputwc/_logs/history/job_201709171515_0008_1505800726232_Jocke_word+count File does not exist. Holder DFSClient_NONMAPREDUCE_1082022361_29 does not have any open files
+org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException: No lease on /user/Jocke/outputwc/_logs/history/job_201709171515_0008_1505800726232_Jocke_word+count File does not exist. Holder DFSClient_NONMAPREDUCE_1082022361_29 does not have any open files
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkLease(FSNamesystem.java:1999)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkLease(FSNamesystem.java:1990)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.getAdditionalBlock(FSNamesystem.java:1899)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.addBlock(NameNode.java:783)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:587)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1432)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1428)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1190)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1426)
+2017-09-19 15:06:59,256 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at Joakims-MacBook-Pro.local/172.30.1.7
+************************************************************/
+2017-09-19 15:45:10,308 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = Joakims-MacBook-Pro.local/192.168.0.5
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.1
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-1.2 -r 1503152; compiled by 'mattf' on Mon Jul 22 15:23:09 PDT 2013
+STARTUP_MSG:   java = 1.8.0_74
+************************************************************/
+2017-09-19 15:45:10,516 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2017-09-19 15:45:10,531 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2017-09-19 15:45:10,532 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2017-09-19 15:45:10,532 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: NameNode metrics system started
+2017-09-19 15:45:10,699 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2017-09-19 15:45:10,711 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2017-09-19 15:45:10,727 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2017-09-19 15:45:10,729 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source NameNode registered.
+2017-09-19 15:45:10,763 INFO org.apache.hadoop.hdfs.util.GSet: Computing capacity for map BlocksMap
+2017-09-19 15:45:10,763 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2017-09-19 15:45:10,763 INFO org.apache.hadoop.hdfs.util.GSet: 2.0% max memory = 932184064
+2017-09-19 15:45:10,763 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2017-09-19 15:45:10,763 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2017-09-19 15:45:10,796 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=Jocke
+2017-09-19 15:45:10,796 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2017-09-19 15:45:10,796 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2017-09-19 15:45:10,828 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2017-09-19 15:45:10,828 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2017-09-19 15:45:11,201 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStateMBean and NameNodeMXBean
+2017-09-19 15:45:11,229 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: dfs.namenode.edits.toleration.length = 0
+2017-09-19 15:45:11,229 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2017-09-19 15:45:11,248 INFO org.apache.hadoop.hdfs.server.common.Storage: Start loading image file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/fsimage
+2017-09-19 15:45:11,248 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 34
+2017-09-19 15:45:11,258 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2017-09-19 15:45:11,258 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/fsimage of size 3830 bytes loaded in 0 seconds.
+2017-09-19 15:45:11,258 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Start loading edits file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 15:45:11,280 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Invalid opcode, reached end of edit log Number of transactions found: 102.  Bytes read: 13554
+2017-09-19 15:45:11,280 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Start checking end of edit log (/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits) ...
+2017-09-19 15:45:11,313 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Checked the bytes after the end of edit log (/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits):
+2017-09-19 15:45:11,313 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog:   Padding position  = 13554 (-1 means padding not found)
+2017-09-19 15:45:11,313 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog:   Edit log length   = 1048580
+2017-09-19 15:45:11,314 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog:   Read length       = 13554
+2017-09-19 15:45:11,314 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog:   Corruption length = 0
+2017-09-19 15:45:11,314 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog:   Toleration length = 0 (= dfs.namenode.edits.toleration.length)
+2017-09-19 15:45:11,317 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Summary: |---------- Read=13554 ----------|-- Corrupt=0 --|-- Pad=1035026 --|
+2017-09-19 15:45:11,317 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Edits file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits of size 1048580 edits # 102 loaded in 0 seconds.
+2017-09-19 15:45:11,324 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/fsimage of size 6822 bytes saved in 0 seconds.
+2017-09-19 15:45:11,483 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 15:45:11,485 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 15:45:11,498 INFO org.apache.hadoop.hdfs.server.namenode.NameCache: initialized with 1 entries 11 lookups
+2017-09-19 15:45:11,498 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 715 msecs
+2017-09-19 15:45:11,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.threshold.pct          = 0.9990000128746033
+2017-09-19 15:45:11,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+2017-09-19 15:45:11,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.extension              = 30000
+2017-09-19 15:45:11,500 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of blocks excluded by safe block count: 0 total blocks: 21 and thus the safe blocks: 21
+2017-09-19 15:45:11,501 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON 
+The reported blocks is only 0 but the threshold is 0,9990 and the total blocks 21. Safe mode will be turned off automatically.
+2017-09-19 15:45:11,510 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2017-09-19 15:45:11,518 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source FSNamesystemMetrics registered.
+2017-09-19 15:45:11,554 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2017-09-19 15:45:11,558 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort9000 registered.
+2017-09-19 15:45:11,558 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort9000 registered.
+2017-09-19 15:45:11,562 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: localhost/127.0.0.1:9000
+2017-09-19 15:45:11,646 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2017-09-19 15:45:11,738 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2017-09-19 15:45:11,793 INFO org.apache.hadoop.http.HttpServer: dfs.webhdfs.enabled = false
+2017-09-19 15:45:11,814 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2017-09-19 15:45:11,818 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2017-09-19 15:45:11,818 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2017-09-19 15:45:11,818 INFO org.mortbay.log: jetty-6.1.26
+2017-09-19 15:45:12,504 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50070
+2017-09-19 15:45:12,504 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: 0.0.0.0:50070
+2017-09-19 15:45:12,505 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-09-19 15:45:12,505 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9000: starting
+2017-09-19 15:45:12,506 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9000: starting
+2017-09-19 15:45:12,506 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9000: starting
+2017-09-19 15:45:12,506 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9000: starting
+2017-09-19 15:45:12,507 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9000: starting
+2017-09-19 15:45:12,507 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9000: starting
+2017-09-19 15:45:12,507 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9000: starting
+2017-09-19 15:45:12,507 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000: starting
+2017-09-19 15:45:12,507 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9000: starting
+2017-09-19 15:45:12,507 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9000: starting
+2017-09-19 15:45:12,508 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9000: starting
+2017-09-19 15:45:14,103 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* registerDatanode: node registration from 127.0.0.1:50010 storage DS-804248980-192.168.0.5-50010-1505622244595
+2017-09-19 15:45:14,108 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:50010
+2017-09-19 15:45:14,112 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blocksBeingWrittenReport: from 127.0.0.1:50010 0 blocks
+2017-09-19 15:45:14,126 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode extension entered 
+The reported blocks 21 has reached the threshold 0,9990 of total blocks 21. Safe mode will be turned off automatically in 29 seconds.
+2017-09-19 15:45:14,126 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 127.0.0.1:50010, blocks: 21, processing time: 4 msecs
+2017-09-19 15:45:34,171 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON 
+The reported blocks 21 has reached the threshold 0,9990 of total blocks 21. Safe mode will be turned off automatically in 9 seconds.
+2017-09-19 15:45:44,219 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 21
+2017-09-19 15:45:44,219 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2017-09-19 15:45:44,219 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 7
+2017-09-19 15:45:44,219 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2017-09-19 15:45:44,219 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode termination scan for invalid, over- and under-replicated blocks completed in 18 msec
+2017-09-19 15:45:44,219 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 33 secs
+2017-09-19 15:45:44,219 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is OFF
+2017-09-19 15:45:44,220 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 1 racks and 1 datanodes
+2017-09-19 15:45:44,220 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 7 blocks
+2017-09-19 15:45:44,532 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 1 msec
+2017-09-19 15:45:44,533 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 0 msec
+2017-09-19 15:45:44,533 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: Queue flush completed 0 blocks in 0 msec processing time, 0 msec clock time, 1 cycles
+2017-09-19 15:45:45,172 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_5193507875407183790 to 127.0.0.1:50010 
+2017-09-19 15:45:45,172 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-5887987021910814200 to 127.0.0.1:50010 
+2017-09-19 15:45:45,172 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_1802790208170207706 to 127.0.0.1:50010 
+2017-09-19 15:45:45,172 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_5585237648867852274 to 127.0.0.1:50010 
+2017-09-19 15:45:45,172 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-7571249480227742408 to 127.0.0.1:50010 
+2017-09-19 15:45:45,235 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/jobtracker.info. blk_-5492251983798546527_1110
+2017-09-19 15:45:45,262 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-5492251983798546527_1110 size 4
+2017-09-19 15:45:45,268 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/jobtracker.info from client DFSClient_NONMAPREDUCE_-2054108452_1
+2017-09-19 15:45:45,268 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/jobtracker.info is closed by DFSClient_NONMAPREDUCE_-2054108452_1
+2017-09-19 15:45:47,538 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 127.0.0.1:50010 to delete  blk_-5887987021910814200_1098 blk_-7571249480227742408_1060 blk_5193507875407183790_1097 blk_5585237648867852274_1107 blk_1802790208170207706_1106
+2017-09-19 15:46:04,746 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part0. blk_3856751410087093931_1111
+2017-09-19 15:46:04,778 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_3856751410087093931_1111 size 118
+2017-09-19 15:46:04,784 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part0 from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,785 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part0 is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,792 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part1. blk_6406187514134403405_1112
+2017-09-19 15:46:04,797 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_6406187514134403405_1112 size 118
+2017-09-19 15:46:04,799 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part1 from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,799 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part1 is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,809 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part2. blk_199148355030575280_1113
+2017-09-19 15:46:04,838 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_199148355030575280_1113 size 118
+2017-09-19 15:46:04,839 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part2 from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,840 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part2 is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,848 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part3. blk_8698126322565389124_1114
+2017-09-19 15:46:04,852 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_8698126322565389124_1114 size 118
+2017-09-19 15:46:04,853 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part3 from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,854 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part3 is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,861 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part4. blk_-3795526848311940681_1115
+2017-09-19 15:46:04,875 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-3795526848311940681_1115 size 118
+2017-09-19 15:46:04,877 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part4 from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,879 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part4 is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,897 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part5. blk_-411276734798855493_1116
+2017-09-19 15:46:04,903 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-411276734798855493_1116 size 118
+2017-09-19 15:46:04,905 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part5 from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,905 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part5 is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,914 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part6. blk_4234427215293169201_1117
+2017-09-19 15:46:04,920 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_4234427215293169201_1117 size 118
+2017-09-19 15:46:04,922 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part6 from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,923 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part6 is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,930 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part7. blk_-4705837342855848076_1118
+2017-09-19 15:46:04,949 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-4705837342855848076_1118 size 118
+2017-09-19 15:46:04,957 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part7 from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,957 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part7 is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,972 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part8. blk_-6883216742755860527_1119
+2017-09-19 15:46:04,981 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-6883216742755860527_1119 size 118
+2017-09-19 15:46:04,982 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part8 from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,983 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part8 is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,986 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part9. blk_232495543812240759_1120
+2017-09-19 15:46:04,992 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_232495543812240759_1120 size 118
+2017-09-19 15:46:04,998 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part9 from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:04,999 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part9 is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:05,147 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.jar. blk_4193720075069757536_1121
+2017-09-19 15:46:05,159 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_4193720075069757536_1121 size 142726
+2017-09-19 15:46:05,160 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.jar from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:05,160 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.jar is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:05,162 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.jar. New replication is 10
+2017-09-19 15:46:05,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.split. New replication is 10
+2017-09-19 15:46:05,214 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.split. blk_-3608351623243254270_1122
+2017-09-19 15:46:05,221 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-3608351623243254270_1122 size 1227
+2017-09-19 15:46:05,226 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.split from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:05,227 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.split is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:05,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.splitmetainfo. blk_-7154649976203450931_1123
+2017-09-19 15:46:05,245 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-7154649976203450931_1123 size 176
+2017-09-19 15:46:05,250 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.splitmetainfo from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:05,250 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.splitmetainfo is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:05,350 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.xml. blk_2083969301014811581_1124
+2017-09-19 15:46:05,356 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2083969301014811581_1124 size 33995
+2017-09-19 15:46:05,358 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.xml from client DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:05,358 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0001/job.xml is closed by DFSClient_NONMAPREDUCE_163526482_1
+2017-09-19 15:46:05,371 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709191545_0001/job-info. blk_8743921526508030855_1125
+2017-09-19 15:46:05,377 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_8743921526508030855_1125 size 134
+2017-09-19 15:46:05,378 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709191545_0001/job-info from client DFSClient_NONMAPREDUCE_-2054108452_1
+2017-09-19 15:46:05,379 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709191545_0001/job-info is closed by DFSClient_NONMAPREDUCE_-2054108452_1
+2017-09-19 15:46:05,388 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709191545_0001/jobToken. blk_6072173998998201905_1126
+2017-09-19 15:46:05,395 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_6072173998998201905_1126 size 106
+2017-09-19 15:46:05,396 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709191545_0001/jobToken from client DFSClient_NONMAPREDUCE_-2054108452_1
+2017-09-19 15:46:05,396 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709191545_0001/jobToken is closed by DFSClient_NONMAPREDUCE_-2054108452_1
+2017-09-19 15:46:05,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709191545_0001_conf.xml. blk_-1913859252076821233_1128
+2017-09-19 15:46:05,626 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-1913859252076821233_1128 size 52486
+2017-09-19 15:46:05,628 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709191545_0001_conf.xml from client DFSClient_NONMAPREDUCE_-1365769403_30
+2017-09-19 15:46:05,628 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709191545_0001_conf.xml is closed by DFSClient_NONMAPREDUCE_-1365769403_30
+2017-09-19 15:46:24,563 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 95 Total time for transactions(ms): 5 Number of transactions batched in Syncs: 0 Number of syncs: 53 SyncTimes(ms): 21 
+2017-09-19 15:46:24,598 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/out/reduce-out. blk_3991821746993418363_1130
+2017-09-19 15:46:24,641 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_3991821746993418363_1130 size 118
+2017-09-19 15:46:24,642 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/reduce-out from client DFSClient_attempt_201709191545_0001_r_000000_0_192562460_1
+2017-09-19 15:46:24,642 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/reduce-out is closed by DFSClient_attempt_201709191545_0001_r_000000_0_192562460_1
+2017-09-19 15:46:24,644 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/out/_temporary/_attempt_201709191545_0001_r_000000_0/part-00000. blk_9205631205233708488_1130
+2017-09-19 15:46:24,650 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_9205631205233708488_1130 size 97
+2017-09-19 15:46:24,651 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/_temporary/_attempt_201709191545_0001_r_000000_0/part-00000 from client DFSClient_attempt_201709191545_0001_r_000000_0_192562460_1
+2017-09-19 15:46:24,652 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/_temporary/_attempt_201709191545_0001_r_000000_0/part-00000 is closed by DFSClient_attempt_201709191545_0001_r_000000_0_192562460_1
+2017-09-19 15:46:27,080 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/_SUCCESS from client DFSClient_attempt_201709191545_0001_m_000010_0_-377416024_1
+2017-09-19 15:46:27,080 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/_SUCCESS is closed by DFSClient_attempt_201709191545_0001_m_000010_0_-377416024_1
+2017-09-19 15:46:27,289 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709191545_0001_1505803565404_Jocke_PiEstimator. blk_607950090559577916_1131
+2017-09-19 15:46:27,295 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_607950090559577916_1131 size 33955
+2017-09-19 15:46:27,295 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709191545_0001_1505803565404_Jocke_PiEstimator from client DFSClient_NONMAPREDUCE_-1365769403_30
+2017-09-19 15:46:27,296 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709191545_0001_1505803565404_Jocke_PiEstimator is closed by DFSClient_NONMAPREDUCE_-1365769403_30
+2017-09-19 15:46:27,307 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_8743921526508030855 to 127.0.0.1:50010 
+2017-09-19 15:46:27,307 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_6072173998998201905 to 127.0.0.1:50010 
+2017-09-19 15:46:27,312 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_4193720075069757536 to 127.0.0.1:50010 
+2017-09-19 15:46:27,312 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-3608351623243254270 to 127.0.0.1:50010 
+2017-09-19 15:46:27,312 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-7154649976203450931 to 127.0.0.1:50010 
+2017-09-19 15:46:27,312 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_2083969301014811581 to 127.0.0.1:50010 
+2017-09-19 15:46:27,643 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_3856751410087093931 to 127.0.0.1:50010 
+2017-09-19 15:46:27,643 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_6406187514134403405 to 127.0.0.1:50010 
+2017-09-19 15:46:27,643 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_199148355030575280 to 127.0.0.1:50010 
+2017-09-19 15:46:27,643 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_8698126322565389124 to 127.0.0.1:50010 
+2017-09-19 15:46:27,643 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-3795526848311940681 to 127.0.0.1:50010 
+2017-09-19 15:46:27,644 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-411276734798855493 to 127.0.0.1:50010 
+2017-09-19 15:46:27,644 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_4234427215293169201 to 127.0.0.1:50010 
+2017-09-19 15:46:27,644 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-4705837342855848076 to 127.0.0.1:50010 
+2017-09-19 15:46:27,644 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-6883216742755860527 to 127.0.0.1:50010 
+2017-09-19 15:46:27,644 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_232495543812240759 to 127.0.0.1:50010 
+2017-09-19 15:46:27,644 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_607950090559577916 to 127.0.0.1:50010 
+2017-09-19 15:46:27,644 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-1913859252076821233 to 127.0.0.1:50010 
+2017-09-19 15:46:27,644 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_9205631205233708488 to 127.0.0.1:50010 
+2017-09-19 15:46:27,644 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_3991821746993418363 to 127.0.0.1:50010 
+2017-09-19 15:46:29,576 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 127.0.0.1:50010 to delete  blk_8743921526508030855_1125 blk_-4705837342855848076_1118 blk_-6883216742755860527_1119 blk_4193720075069757536_1121 blk_607950090559577916_1131 blk_-3608351623243254270_1122 blk_232495543812240759_1120 blk_-3795526848311940681_1115 blk_3991821746993418363_1130 blk_2083969301014811581_1124 blk_4234427215293169201_1117 blk_6406187514134403405_1112 blk_9205631205233708488_1130 blk_-1913859252076821233_1128 blk_199148355030575280_1113 blk_-7154649976203450931_1123 blk_8698126322565389124_1114 blk_6072173998998201905_1126 blk_3856751410087093931_1111 blk_-411276734798855493_1116
+2017-09-19 15:50:15,354 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2017-09-19 15:50:15,355 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 114 Total time for transactions(ms): 6 Number of transactions batched in Syncs: 1 Number of syncs: 67 SyncTimes(ms): 33 
+2017-09-19 15:50:15,355 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=15187, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 15:50:15,355 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 15187, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 15:50:16,177 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2017-09-19 15:50:16,267 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 1502a3d77d4092b26242d50d3a2c28d9
+2017-09-19 15:50:16,268 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2017-09-19 15:50:16,268 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 4 
+2017-09-19 15:50:16,268 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 15:50:16,269 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 16:01:14,997 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 127.0.0.1:50010, blocks: 17, processing time: 1 msecs
+2017-09-19 16:19:13,322 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 2 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-09-19 16:19:13,347 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part0. blk_4471150714824978961_1132
+2017-09-19 16:19:13,380 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_4471150714824978961_1132 size 118
+2017-09-19 16:19:13,384 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part0 from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,385 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part0 is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part1. blk_2312145490921902547_1133
+2017-09-19 16:19:13,393 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2312145490921902547_1133 size 118
+2017-09-19 16:19:13,394 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part1 from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,395 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part1 is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,400 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part2. blk_6626666642739305877_1134
+2017-09-19 16:19:13,405 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_6626666642739305877_1134 size 118
+2017-09-19 16:19:13,405 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part2 from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,406 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part2 is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,409 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part3. blk_2956490244077290190_1135
+2017-09-19 16:19:13,413 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2956490244077290190_1135 size 118
+2017-09-19 16:19:13,414 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part3 from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,414 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part3 is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,419 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part4. blk_4819511539339688673_1136
+2017-09-19 16:19:13,426 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_4819511539339688673_1136 size 118
+2017-09-19 16:19:13,427 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part4 from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,427 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part4 is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,442 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part5. blk_-2729956946018311267_1137
+2017-09-19 16:19:13,453 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-2729956946018311267_1137 size 118
+2017-09-19 16:19:13,453 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part5 from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,453 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part5 is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,457 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part6. blk_7109016252749871158_1138
+2017-09-19 16:19:13,460 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_7109016252749871158_1138 size 118
+2017-09-19 16:19:13,461 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part6 from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,462 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part6 is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,468 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part7. blk_-8132386240115622008_1139
+2017-09-19 16:19:13,480 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-8132386240115622008_1139 size 118
+2017-09-19 16:19:13,486 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part7 from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,487 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part7 is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,494 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part8. blk_-3821825151665060448_1140
+2017-09-19 16:19:13,501 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-3821825151665060448_1140 size 118
+2017-09-19 16:19:13,502 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part8 from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,502 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part8 is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,509 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part9. blk_-498335570641667614_1141
+2017-09-19 16:19:13,520 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-498335570641667614_1141 size 118
+2017-09-19 16:19:13,521 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part9 from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,521 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part9 is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,677 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.jar. blk_-45563405234429881_1142
+2017-09-19 16:19:13,688 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-45563405234429881_1142 size 142726
+2017-09-19 16:19:13,690 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.jar from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,691 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.jar is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,692 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.jar. New replication is 10
+2017-09-19 16:19:13,877 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.split. New replication is 10
+2017-09-19 16:19:13,880 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.split. blk_-8036323699736478850_1143
+2017-09-19 16:19:13,885 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-8036323699736478850_1143 size 1227
+2017-09-19 16:19:13,885 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.split from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,886 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.split is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,899 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.splitmetainfo. blk_8838068631231594244_1144
+2017-09-19 16:19:13,904 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_8838068631231594244_1144 size 176
+2017-09-19 16:19:13,905 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.splitmetainfo from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:13,906 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.splitmetainfo is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:14,003 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.xml. blk_-4074901573046484126_1145
+2017-09-19 16:19:14,009 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-4074901573046484126_1145 size 33995
+2017-09-19 16:19:14,009 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.xml from client DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:14,010 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709191545_0002/job.xml is closed by DFSClient_NONMAPREDUCE_39479724_1
+2017-09-19 16:19:14,025 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709191545_0002/job-info. blk_-4386211105233669066_1146
+2017-09-19 16:19:14,030 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-4386211105233669066_1146 size 134
+2017-09-19 16:19:14,031 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709191545_0002/job-info from client DFSClient_NONMAPREDUCE_-2054108452_1
+2017-09-19 16:19:14,031 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709191545_0002/job-info is closed by DFSClient_NONMAPREDUCE_-2054108452_1
+2017-09-19 16:19:14,037 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709191545_0002/jobToken. blk_-5104574432913862982_1147
+2017-09-19 16:19:14,041 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-5104574432913862982_1147 size 106
+2017-09-19 16:19:14,042 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709191545_0002/jobToken from client DFSClient_NONMAPREDUCE_-2054108452_1
+2017-09-19 16:19:14,043 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709191545_0002/jobToken is closed by DFSClient_NONMAPREDUCE_-2054108452_1
+2017-09-19 16:19:14,112 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709191545_0002_conf.xml. blk_-2893771001253373738_1149
+2017-09-19 16:19:14,130 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-2893771001253373738_1149 size 52486
+2017-09-19 16:19:14,133 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709191545_0002_conf.xml from client DFSClient_NONMAPREDUCE_48498947_26
+2017-09-19 16:19:14,133 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709191545_0002_conf.xml is closed by DFSClient_NONMAPREDUCE_48498947_26
+2017-09-19 16:19:32,640 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/out/reduce-out. blk_5891847111172606991_1151
+2017-09-19 16:19:32,670 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_5891847111172606991_1151 size 118
+2017-09-19 16:19:32,672 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/reduce-out from client DFSClient_attempt_201709191545_0002_r_000000_0_1780986939_1
+2017-09-19 16:19:32,672 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/reduce-out is closed by DFSClient_attempt_201709191545_0002_r_000000_0_1780986939_1
+2017-09-19 16:19:32,673 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/out/_temporary/_attempt_201709191545_0002_r_000000_0/part-00000. blk_5167144353373689033_1151
+2017-09-19 16:19:32,678 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_5167144353373689033_1151 size 97
+2017-09-19 16:19:32,679 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/_temporary/_attempt_201709191545_0002_r_000000_0/part-00000 from client DFSClient_attempt_201709191545_0002_r_000000_0_1780986939_1
+2017-09-19 16:19:32,679 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/_temporary/_attempt_201709191545_0002_r_000000_0/part-00000 is closed by DFSClient_attempt_201709191545_0002_r_000000_0_1780986939_1
+2017-09-19 16:19:35,372 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/_SUCCESS from client DFSClient_attempt_201709191545_0002_m_000010_0_1015261227_1
+2017-09-19 16:19:35,373 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/_SUCCESS is closed by DFSClient_attempt_201709191545_0002_m_000010_0_1015261227_1
+2017-09-19 16:19:35,411 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709191545_0002_1505805554044_Jocke_PiEstimator. blk_8771088063672372664_1152
+2017-09-19 16:19:35,417 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_8771088063672372664_1152 size 33955
+2017-09-19 16:19:35,417 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709191545_0002_1505805554044_Jocke_PiEstimator from client DFSClient_NONMAPREDUCE_48498947_26
+2017-09-19 16:19:35,418 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709191545_0002_1505805554044_Jocke_PiEstimator is closed by DFSClient_NONMAPREDUCE_48498947_26
+2017-09-19 16:19:35,425 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-4386211105233669066 to 127.0.0.1:50010 
+2017-09-19 16:19:35,425 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-5104574432913862982 to 127.0.0.1:50010 
+2017-09-19 16:19:35,428 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-45563405234429881 to 127.0.0.1:50010 
+2017-09-19 16:19:35,428 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-8036323699736478850 to 127.0.0.1:50010 
+2017-09-19 16:19:35,428 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_8838068631231594244 to 127.0.0.1:50010 
+2017-09-19 16:19:35,428 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-4074901573046484126 to 127.0.0.1:50010 
+2017-09-19 16:19:36,237 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_4471150714824978961 to 127.0.0.1:50010 
+2017-09-19 16:19:36,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_2312145490921902547 to 127.0.0.1:50010 
+2017-09-19 16:19:36,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_6626666642739305877 to 127.0.0.1:50010 
+2017-09-19 16:19:36,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_2956490244077290190 to 127.0.0.1:50010 
+2017-09-19 16:19:36,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_4819511539339688673 to 127.0.0.1:50010 
+2017-09-19 16:19:36,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-2729956946018311267 to 127.0.0.1:50010 
+2017-09-19 16:19:36,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_7109016252749871158 to 127.0.0.1:50010 
+2017-09-19 16:19:36,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-8132386240115622008 to 127.0.0.1:50010 
+2017-09-19 16:19:36,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-3821825151665060448 to 127.0.0.1:50010 
+2017-09-19 16:19:36,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-498335570641667614 to 127.0.0.1:50010 
+2017-09-19 16:19:36,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_8771088063672372664 to 127.0.0.1:50010 
+2017-09-19 16:19:36,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-2893771001253373738 to 127.0.0.1:50010 
+2017-09-19 16:19:36,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_5167144353373689033 to 127.0.0.1:50010 
+2017-09-19 16:19:36,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_5891847111172606991 to 127.0.0.1:50010 
+2017-09-19 16:19:37,832 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 127.0.0.1:50010 to delete  blk_5167144353373689033_1151 blk_8838068631231594244_1144 blk_-2893771001253373738_1149 blk_4471150714824978961_1132 blk_-498335570641667614_1141 blk_6626666642739305877_1134 blk_2956490244077290190_1135 blk_-45563405234429881_1142 blk_7109016252749871158_1138 blk_2312145490921902547_1133 blk_-4386211105233669066_1146 blk_-5104574432913862982_1147 blk_-3821825151665060448_1140 blk_4819511539339688673_1136 blk_5891847111172606991_1151 blk_-8036323699736478850_1143 blk_8771088063672372664_1152 blk_-8132386240115622008_1139 blk_-2729956946018311267_1137 blk_-4074901573046484126_1145
+2017-09-19 16:50:16,626 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2017-09-19 16:50:16,628 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 106 Total time for transactions(ms): 6 Number of transactions batched in Syncs: 1 Number of syncs: 61 SyncTimes(ms): 33 
+2017-09-19 16:50:16,628 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=14301, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 16:50:16,629 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 14301, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 16:50:16,902 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2017-09-19 16:50:16,912 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 154e1b8ed57f4270b487181427a03b55
+2017-09-19 16:50:16,913 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2017-09-19 16:50:16,913 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 4 
+2017-09-19 16:50:16,913 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 16:50:16,914 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 17:01:15,738 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 127.0.0.1:50010, blocks: 17, processing time: 1 msecs
+2017-09-19 17:50:16,939 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2017-09-19 17:50:16,940 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2017-09-19 17:50:16,941 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 17:50:16,941 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 17:50:17,221 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2017-09-19 17:50:17,229 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 35e6e8601400a72835c532462712f5b3
+2017-09-19 17:50:17,230 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2017-09-19 17:50:17,231 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 7 
+2017-09-19 17:50:17,231 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 17:50:17,232 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 18:01:16,042 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 127.0.0.1:50010, blocks: 17, processing time: 1 msecs
+2017-09-19 18:30:00,375 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at Joakims-MacBook-Pro.local/192.168.0.5
+************************************************************/
+2017-09-19 22:03:10,284 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = Joakims-MacBook-Pro.local/192.168.0.5
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.1
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-1.2 -r 1503152; compiled by 'mattf' on Mon Jul 22 15:23:09 PDT 2013
+STARTUP_MSG:   java = 1.8.0_74
+************************************************************/
+2017-09-19 22:03:10,574 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2017-09-19 22:03:10,589 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2017-09-19 22:03:10,590 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2017-09-19 22:03:10,590 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: NameNode metrics system started
+2017-09-19 22:03:10,775 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2017-09-19 22:03:10,781 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2017-09-19 22:03:10,804 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2017-09-19 22:03:10,805 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source NameNode registered.
+2017-09-19 22:03:10,852 INFO org.apache.hadoop.hdfs.util.GSet: Computing capacity for map BlocksMap
+2017-09-19 22:03:10,852 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2017-09-19 22:03:10,852 INFO org.apache.hadoop.hdfs.util.GSet: 2.0% max memory = 932184064
+2017-09-19 22:03:10,853 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2017-09-19 22:03:10,853 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2017-09-19 22:03:10,911 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=Jocke
+2017-09-19 22:03:10,911 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2017-09-19 22:03:10,911 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2017-09-19 22:03:10,928 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2017-09-19 22:03:10,928 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2017-09-19 22:03:11,495 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStateMBean and NameNodeMXBean
+2017-09-19 22:03:11,569 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: dfs.namenode.edits.toleration.length = 0
+2017-09-19 22:03:11,569 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2017-09-19 22:03:11,624 INFO org.apache.hadoop.hdfs.server.common.Storage: Start loading image file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/fsimage
+2017-09-19 22:03:11,625 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 47
+2017-09-19 22:03:11,647 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2017-09-19 22:03:11,647 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/fsimage of size 5932 bytes loaded in 0 seconds.
+2017-09-19 22:03:11,647 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Start loading edits file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 22:03:11,648 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: EOF of /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits, reached end of edit log Number of transactions found: 0.  Bytes read: 4
+2017-09-19 22:03:11,648 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Start checking end of edit log (/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits) ...
+2017-09-19 22:03:11,648 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Checked the bytes after the end of edit log (/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits):
+2017-09-19 22:03:11,648 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog:   Padding position  = -1 (-1 means padding not found)
+2017-09-19 22:03:11,648 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog:   Edit log length   = 4
+2017-09-19 22:03:11,648 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog:   Read length       = 4
+2017-09-19 22:03:11,648 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog:   Corruption length = 0
+2017-09-19 22:03:11,648 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog:   Toleration length = 0 (= dfs.namenode.edits.toleration.length)
+2017-09-19 22:03:11,657 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Summary: |---------- Read=4 ----------|-- Corrupt=0 --|-- Pad=0 --|
+2017-09-19 22:03:11,657 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Edits file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2017-09-19 22:03:11,669 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/fsimage of size 5932 bytes saved in 0 seconds.
+2017-09-19 22:03:12,182 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 22:03:12,184 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 22:03:12,211 INFO org.apache.hadoop.hdfs.server.namenode.NameCache: initialized with 0 entries 0 lookups
+2017-09-19 22:03:12,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 1338 msecs
+2017-09-19 22:03:12,213 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.threshold.pct          = 0.9990000128746033
+2017-09-19 22:03:12,213 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+2017-09-19 22:03:12,213 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.extension              = 30000
+2017-09-19 22:03:12,213 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of blocks excluded by safe block count: 0 total blocks: 17 and thus the safe blocks: 17
+2017-09-19 22:03:12,215 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON 
+The reported blocks is only 0 but the threshold is 0,9990 and the total blocks 17. Safe mode will be turned off automatically.
+2017-09-19 22:03:12,234 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2017-09-19 22:03:12,248 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source FSNamesystemMetrics registered.
+2017-09-19 22:03:12,439 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2017-09-19 22:03:12,443 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort9000 registered.
+2017-09-19 22:03:12,444 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort9000 registered.
+2017-09-19 22:03:12,452 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: localhost/127.0.0.1:9000
+2017-09-19 22:03:12,659 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2017-09-19 22:03:12,787 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2017-09-19 22:03:12,813 INFO org.apache.hadoop.http.HttpServer: dfs.webhdfs.enabled = false
+2017-09-19 22:03:12,833 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2017-09-19 22:03:12,836 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2017-09-19 22:03:12,836 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2017-09-19 22:03:12,837 INFO org.mortbay.log: jetty-6.1.26
+2017-09-19 22:03:13,487 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50070
+2017-09-19 22:03:13,487 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: 0.0.0.0:50070
+2017-09-19 22:03:13,488 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-09-19 22:03:13,488 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9000: starting
+2017-09-19 22:03:13,491 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9000: starting
+2017-09-19 22:03:13,491 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9000: starting
+2017-09-19 22:03:13,492 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9000: starting
+2017-09-19 22:03:13,492 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9000: starting
+2017-09-19 22:03:13,492 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9000: starting
+2017-09-19 22:03:13,492 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9000: starting
+2017-09-19 22:03:13,493 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000: starting
+2017-09-19 22:03:13,493 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9000: starting
+2017-09-19 22:03:13,493 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9000: starting
+2017-09-19 22:03:13,493 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9000: starting
+2017-09-19 22:03:15,022 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* registerDatanode: node registration from 127.0.0.1:50010 storage DS-804248980-192.168.0.5-50010-1505622244595
+2017-09-19 22:03:15,026 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:50010
+2017-09-19 22:03:15,032 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blocksBeingWrittenReport: from 127.0.0.1:50010 0 blocks
+2017-09-19 22:03:15,046 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode extension entered 
+The reported blocks 17 has reached the threshold 0,9990 of total blocks 17. Safe mode will be turned off automatically in 29 seconds.
+2017-09-19 22:03:15,046 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* processReport: from 127.0.0.1:50010, blocks: 17, processing time: 4 msecs
+2017-09-19 22:03:35,109 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON 
+The reported blocks 17 has reached the threshold 0,9990 of total blocks 17. Safe mode will be turned off automatically in 9 seconds.
+2017-09-19 22:03:45,157 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 17
+2017-09-19 22:03:45,157 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2017-09-19 22:03:45,157 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 7
+2017-09-19 22:03:45,157 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2017-09-19 22:03:45,157 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode termination scan for invalid, over- and under-replicated blocks completed in 17 msec
+2017-09-19 22:03:45,157 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 34 secs
+2017-09-19 22:03:45,157 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is OFF
+2017-09-19 22:03:45,157 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 1 racks and 1 datanodes
+2017-09-19 22:03:45,157 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 7 blocks
+2017-09-19 22:03:45,273 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 1 msec
+2017-09-19 22:03:45,273 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 0 msec
+2017-09-19 22:03:45,273 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: Queue flush completed 0 blocks in 0 msec processing time, 0 msec clock time, 1 cycles
+2017-09-19 22:03:45,791 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-5492251983798546527 to 127.0.0.1:50010 
+2017-09-19 22:03:45,858 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/jobtracker.info. blk_4158854555945284521_1153
+2017-09-19 22:03:45,886 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_4158854555945284521_1153 size 4
+2017-09-19 22:03:45,889 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/jobtracker.info from client DFSClient_NONMAPREDUCE_-2134781838_1
+2017-09-19 22:03:45,889 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/jobtracker.info is closed by DFSClient_NONMAPREDUCE_-2134781838_1
+2017-09-19 22:03:48,279 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 127.0.0.1:50010 to delete  blk_-5492251983798546527_1110
+2017-09-19 22:04:37,286 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 10 Total time for transactions(ms): 1 Number of transactions batched in Syncs: 0 Number of syncs: 6 SyncTimes(ms): 6 
+2017-09-19 22:04:37,312 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/in/part0. blk_8848977237256324185_1154
+2017-09-19 22:04:37,345 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_8848977237256324185_1154 size 118
+2017-09-19 22:04:37,349 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/in/part0 from client DFSClient_NONMAPREDUCE_496315797_1
+2017-09-19 22:04:37,350 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/in/part0 is closed by DFSClient_NONMAPREDUCE_496315797_1
+2017-09-19 22:04:37,524 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.jar. blk_-557556209782985678_1155
+2017-09-19 22:04:37,555 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-557556209782985678_1155 size 142726
+2017-09-19 22:04:37,557 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.jar from client DFSClient_NONMAPREDUCE_496315797_1
+2017-09-19 22:04:37,557 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.jar is closed by DFSClient_NONMAPREDUCE_496315797_1
+2017-09-19 22:04:37,560 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.jar. New replication is 10
+2017-09-19 22:04:37,600 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.split. New replication is 10
+2017-09-19 22:04:37,602 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.split. blk_-2467352788080361140_1156
+2017-09-19 22:04:37,608 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-2467352788080361140_1156 size 129
+2017-09-19 22:04:37,609 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.split from client DFSClient_NONMAPREDUCE_496315797_1
+2017-09-19 22:04:37,609 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.split is closed by DFSClient_NONMAPREDUCE_496315797_1
+2017-09-19 22:04:37,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.splitmetainfo. blk_6781054806397322351_1157
+2017-09-19 22:04:37,625 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_6781054806397322351_1157 size 25
+2017-09-19 22:04:37,627 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.splitmetainfo from client DFSClient_NONMAPREDUCE_496315797_1
+2017-09-19 22:04:37,627 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.splitmetainfo is closed by DFSClient_NONMAPREDUCE_496315797_1
+2017-09-19 22:04:37,768 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.xml. blk_-7380622770373638689_1158
+2017-09-19 22:04:37,777 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-7380622770373638689_1158 size 33993
+2017-09-19 22:04:37,779 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.xml from client DFSClient_NONMAPREDUCE_496315797_1
+2017-09-19 22:04:37,779 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/staging/Jocke/.staging/job_201709192203_0001/job.xml is closed by DFSClient_NONMAPREDUCE_496315797_1
+2017-09-19 22:04:37,791 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709192203_0001/job-info. blk_2473994106375110845_1159
+2017-09-19 22:04:37,796 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_2473994106375110845_1159 size 134
+2017-09-19 22:04:37,797 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709192203_0001/job-info from client DFSClient_NONMAPREDUCE_-2134781838_1
+2017-09-19 22:04:37,797 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709192203_0001/job-info is closed by DFSClient_NONMAPREDUCE_-2134781838_1
+2017-09-19 22:04:37,805 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709192203_0001/jobToken. blk_-128692983880094843_1160
+2017-09-19 22:04:37,811 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-128692983880094843_1160 size 106
+2017-09-19 22:04:37,811 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709192203_0001/jobToken from client DFSClient_NONMAPREDUCE_-2134781838_1
+2017-09-19 22:04:37,812 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /usr/local/Cellar/hadoop/hdfs/tmp1/mapred/system/job_201709192203_0001/jobToken is closed by DFSClient_NONMAPREDUCE_-2134781838_1
+2017-09-19 22:04:38,031 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709192203_0001_conf.xml. blk_-3753091439694482571_1162
+2017-09-19 22:04:38,037 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-3753091439694482571_1162 size 52484
+2017-09-19 22:04:38,039 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709192203_0001_conf.xml from client DFSClient_NONMAPREDUCE_519426896_29
+2017-09-19 22:04:38,039 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709192203_0001_conf.xml is closed by DFSClient_NONMAPREDUCE_519426896_29
+2017-09-19 22:04:49,372 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/out/reduce-out. blk_-130376136021343779_1164
+2017-09-19 22:04:49,400 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-130376136021343779_1164 size 118
+2017-09-19 22:04:49,406 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/reduce-out from client DFSClient_attempt_201709192203_0001_r_000000_0_-1932601194_1
+2017-09-19 22:04:49,406 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/reduce-out is closed by DFSClient_attempt_201709192203_0001_r_000000_0_-1932601194_1
+2017-09-19 22:04:49,408 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/out/_temporary/_attempt_201709192203_0001_r_000000_0/part-00000. blk_-853642964239772252_1164
+2017-09-19 22:04:49,415 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-853642964239772252_1164 size 97
+2017-09-19 22:04:49,417 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/_temporary/_attempt_201709192203_0001_r_000000_0/part-00000 from client DFSClient_attempt_201709192203_0001_r_000000_0_-1932601194_1
+2017-09-19 22:04:49,417 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/_temporary/_attempt_201709192203_0001_r_000000_0/part-00000 is closed by DFSClient_attempt_201709192203_0001_r_000000_0_-1932601194_1
+2017-09-19 22:04:52,000 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/_SUCCESS from client DFSClient_attempt_201709192203_0001_m_000001_0_2144543868_1
+2017-09-19 22:04:52,000 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/_SUCCESS is closed by DFSClient_attempt_201709192203_0001_m_000001_0_2144543868_1
+2017-09-19 22:04:52,288 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* allocateBlock: /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709192203_0001_1505826277824_Jocke_PiEstimator. blk_-2657584699469170546_1165
+2017-09-19 22:04:52,293 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addStoredBlock: blockMap updated: 127.0.0.1:50010 is added to blk_-2657584699469170546_1165 size 11652
+2017-09-19 22:04:52,295 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709192203_0001_1505826277824_Jocke_PiEstimator from client DFSClient_NONMAPREDUCE_519426896_29
+2017-09-19 22:04:52,295 INFO org.apache.hadoop.hdfs.StateChange: DIR* completeFile: /user/Jocke/PiEstimator_TMP_3_141592654/out/_logs/history/job_201709192203_0001_1505826277824_Jocke_PiEstimator is closed by DFSClient_NONMAPREDUCE_519426896_29
+2017-09-19 22:04:52,309 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_2473994106375110845 to 127.0.0.1:50010 
+2017-09-19 22:04:52,309 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-128692983880094843 to 127.0.0.1:50010 
+2017-09-19 22:04:52,315 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-557556209782985678 to 127.0.0.1:50010 
+2017-09-19 22:04:52,315 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-2467352788080361140 to 127.0.0.1:50010 
+2017-09-19 22:04:52,315 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_6781054806397322351 to 127.0.0.1:50010 
+2017-09-19 22:04:52,315 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-7380622770373638689 to 127.0.0.1:50010 
+2017-09-19 22:04:53,037 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_8848977237256324185 to 127.0.0.1:50010 
+2017-09-19 22:04:53,037 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-2657584699469170546 to 127.0.0.1:50010 
+2017-09-19 22:04:53,037 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-3753091439694482571 to 127.0.0.1:50010 
+2017-09-19 22:04:53,037 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-853642964239772252 to 127.0.0.1:50010 
+2017-09-19 22:04:53,037 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* addToInvalidates: blk_-130376136021343779 to 127.0.0.1:50010 
+2017-09-19 22:04:54,341 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 127.0.0.1:50010 to delete  blk_-2657584699469170546_1165 blk_6781054806397322351_1157 blk_8848977237256324185_1154 blk_-130376136021343779_1164 blk_2473994106375110845_1159 blk_-7380622770373638689_1158 blk_-128692983880094843_1160 blk_-557556209782985678_1155 blk_-2467352788080361140_1156 blk_-3753091439694482571_1162 blk_-853642964239772252_1164
+2017-09-19 22:08:15,846 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 127.0.0.1
+2017-09-19 22:08:15,847 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 78 Total time for transactions(ms): 2 Number of transactions batched in Syncs: 1 Number of syncs: 49 SyncTimes(ms): 39 
+2017-09-19 22:08:15,847 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=10561, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 22:08:15,847 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 10561, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits
+2017-09-19 22:08:16,812 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://0.0.0.0:50090/getimage?getimage=1
+2017-09-19 22:08:16,907 INFO org.apache.hadoop.hdfs.server.namenode.GetImageServlet: Downloaded new fsimage with checksum: 61b9151f902a6b5d0924a685538cfa49
+2017-09-19 22:08:16,908 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 127.0.0.1
+2017-09-19 22:08:16,908 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 3 
+2017-09-19 22:08:16,908 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 22:08:16,909 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/name/current/edits.new
+2017-09-19 23:40:41,422 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* heartbeatCheck: lost heartbeat from 127.0.0.1:50010
+2017-09-19 23:40:41,425 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:50010
+2017-09-19 23:40:43,142 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* registerDatanode: node registration from 127.0.0.1:50010 storage DS-804248980-192.168.0.5-50010-1505622244595
+2017-09-19 23:40:43,142 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:50010
+2017-09-19 23:40:43,142 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:50010
+2017-09-19 23:40:43,143 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blocksBeingWrittenReport: from 127.0.0.1:50010 0 blocks

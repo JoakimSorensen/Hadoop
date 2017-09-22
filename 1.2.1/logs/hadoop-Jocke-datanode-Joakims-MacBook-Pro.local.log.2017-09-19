@@ -1,0 +1,597 @@
+2017-09-19 00:25:21,106 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: Block report is due, and been waiting for it for 3225 seconds...
+2017-09-19 00:25:21,107 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 1ms
+2017-09-19 13:42:29,483 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeCommand action: DNA_REGISTER
+2017-09-19 13:42:29,587 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2017-09-19 13:42:30,588 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 19 blocks took 3 msec to generate and 11 msecs for RPC and NN processing
+2017-09-19 13:56:37,268 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 1ms
+2017-09-19 13:56:40,272 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 19 blocks took 0 msec to generate and 1 msecs for RPC and NN processing
+2017-09-19 14:20:08,574 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-8015655616093342312_1089 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-8015655616093342312 for deletion
+2017-09-19 14:20:08,577 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-3321398298826821709_1076 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-3321398298826821709 for deletion
+2017-09-19 14:20:08,577 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-2173872455544890366_1077 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-2173872455544890366 for deletion
+2017-09-19 14:20:08,577 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-1645778903013372522_1088 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-1645778903013372522 for deletion
+2017-09-19 14:20:08,577 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-1302620438119018458_1085 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-1302620438119018458 for deletion
+2017-09-19 14:20:08,578 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-1130890331642114665_1078 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-1130890331642114665 for deletion
+2017-09-19 14:20:08,578 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-1045501796128652016_1084 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-1045501796128652016 for deletion
+2017-09-19 14:20:08,578 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-8015655616093342312_1089 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-8015655616093342312
+2017-09-19 14:20:08,578 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-851754642780408033_1074 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-851754642780408033 for deletion
+2017-09-19 14:20:08,578 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-3321398298826821709_1076 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-3321398298826821709
+2017-09-19 14:20:08,578 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-242341638778670974_1075 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-242341638778670974 for deletion
+2017-09-19 14:20:08,579 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-2173872455544890366_1077 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-2173872455544890366
+2017-09-19 14:20:08,579 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_873242504172878865_1086 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_873242504172878865 for deletion
+2017-09-19 14:20:08,579 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-1645778903013372522_1088 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-1645778903013372522
+2017-09-19 14:20:08,579 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_2500513121684492952_1087 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_2500513121684492952 for deletion
+2017-09-19 14:20:08,579 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-1302620438119018458_1085 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-1302620438119018458
+2017-09-19 14:20:08,579 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_7630394912037111507_1079 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_7630394912037111507 for deletion
+2017-09-19 14:20:08,579 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-1130890331642114665_1078 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-1130890331642114665
+2017-09-19 14:20:08,580 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-1045501796128652016_1084 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-1045501796128652016
+2017-09-19 14:20:08,580 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-851754642780408033_1074 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-851754642780408033
+2017-09-19 14:20:08,580 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-242341638778670974_1075 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-242341638778670974
+2017-09-19 14:20:08,581 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_873242504172878865_1086 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_873242504172878865
+2017-09-19 14:20:08,581 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_2500513121684492952_1087 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_2500513121684492952
+2017-09-19 14:20:08,581 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_7630394912037111507_1079 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_7630394912037111507
+2017-09-19 14:55:28,341 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_5105055954242482678_1092 src: /127.0.0.1:63962 dest: /127.0.0.1:50010
+2017-09-19 14:55:28,348 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:63962, dest: /127.0.0.1:50010, bytes: 2463, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_614846370_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_5105055954242482678_1092, duration: 2767349
+2017-09-19 14:55:28,348 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_5105055954242482678_1092 terminating
+2017-09-19 14:56:25,857 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-6807645573475277719_1093 src: /127.0.0.1:64081 dest: /127.0.0.1:50010
+2017-09-19 14:56:25,867 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64081, dest: /127.0.0.1:50010, bytes: 142726, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-1287823739_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-6807645573475277719_1093, duration: 7911497
+2017-09-19 14:56:25,867 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-6807645573475277719_1093 terminating
+2017-09-19 14:56:26,078 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_8564810556156039149_1094 src: /127.0.0.1:64082 dest: /127.0.0.1:50010
+2017-09-19 14:56:26,083 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64082, dest: /127.0.0.1:50010, bytes: 116, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-1287823739_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_8564810556156039149_1094, duration: 578475
+2017-09-19 14:56:26,083 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_8564810556156039149_1094 terminating
+2017-09-19 14:56:26,093 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_2452679171960913342_1095 src: /127.0.0.1:64083 dest: /127.0.0.1:50010
+2017-09-19 14:56:26,095 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64083, dest: /127.0.0.1:50010, bytes: 26, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-1287823739_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_2452679171960913342_1095, duration: 1081804
+2017-09-19 14:56:26,096 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_2452679171960913342_1095 terminating
+2017-09-19 14:56:26,190 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-7945243533603436120_1096 src: /127.0.0.1:64086 dest: /127.0.0.1:50010
+2017-09-19 14:56:26,195 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64086, dest: /127.0.0.1:50010, bytes: 33997, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-1287823739_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-7945243533603436120_1096, duration: 2180839
+2017-09-19 14:56:26,195 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-7945243533603436120_1096 terminating
+2017-09-19 14:56:26,210 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_5193507875407183790_1097 src: /127.0.0.1:64088 dest: /127.0.0.1:50010
+2017-09-19 14:56:26,214 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64088, dest: /127.0.0.1:50010, bytes: 134, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-1130123778_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_5193507875407183790_1097, duration: 2361610
+2017-09-19 14:56:26,214 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_5193507875407183790_1097 terminating
+2017-09-19 14:56:26,221 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-5887987021910814200_1098 src: /127.0.0.1:64089 dest: /127.0.0.1:50010
+2017-09-19 14:56:26,224 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64089, dest: /127.0.0.1:50010, bytes: 106, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-1130123778_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-5887987021910814200_1098, duration: 1131560
+2017-09-19 14:56:26,224 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-5887987021910814200_1098 terminating
+2017-09-19 14:56:26,238 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64091, bytes: 34265, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_666569118_35, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-7945243533603436120_1096, duration: 574707
+2017-09-19 14:56:26,295 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_207211036015805864_1100 src: /127.0.0.1:64092 dest: /127.0.0.1:50010
+2017-09-19 14:56:26,299 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64092, dest: /127.0.0.1:50010, bytes: 52532, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_666569118_35, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_207211036015805864_1100, duration: 1815519
+2017-09-19 14:56:26,300 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_207211036015805864_1100 terminating
+2017-09-19 14:56:26,316 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64093, bytes: 30, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_666569118_35, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_2452679171960913342_1095, duration: 406356
+2017-09-19 14:56:26,370 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64095, bytes: 110, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_1543982552_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-5887987021910814200_1098, duration: 515502
+2017-09-19 14:56:26,384 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64097, bytes: 34265, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_-1517672703_331, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-7945243533603436120_1096, duration: 511985
+2017-09-19 14:56:26,473 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64098, bytes: 143842, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_-1517672703_331, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-6807645573475277719_1093, duration: 760138
+2017-09-19 14:56:29,409 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64109, bytes: 120, op: HDFS_READ, cliID: DFSClient_attempt_201709171515_0006_m_000000_0_-902550800_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_8564810556156039149_1094, duration: 344016
+2017-09-19 14:56:29,490 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64110, bytes: 2483, op: HDFS_READ, cliID: DFSClient_attempt_201709171515_0006_m_000000_0_-902550800_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_5105055954242482678_1092, duration: 386376
+2017-09-19 14:56:38,177 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 9ms
+2017-09-19 14:56:41,172 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 15 blocks took 0 msec to generate and 1 msecs for RPC and NN processing
+2017-09-19 14:57:31,203 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-9067984877918059612_1101 src: /127.0.0.1:64247 dest: /127.0.0.1:50010
+2017-09-19 14:57:31,210 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64247, dest: /127.0.0.1:50010, bytes: 142726, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-1979511096_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-9067984877918059612_1101, duration: 5542104
+2017-09-19 14:57:31,211 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-9067984877918059612_1101 terminating
+2017-09-19 14:58:41,303 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_207211036015805864_1100 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_207211036015805864 for deletion
+2017-09-19 14:58:41,312 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_207211036015805864_1100 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_207211036015805864
+2017-09-19 14:58:45,787 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-8263866324040161233_1102 src: /127.0.0.1:64416 dest: /127.0.0.1:50010
+2017-09-19 14:58:45,794 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64416, dest: /127.0.0.1:50010, bytes: 142726, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-488232012_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8263866324040161233_1102, duration: 4161387
+2017-09-19 14:58:45,794 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-8263866324040161233_1102 terminating
+2017-09-19 14:58:46,081 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_4808030241158380560_1103 src: /127.0.0.1:64417 dest: /127.0.0.1:50010
+2017-09-19 14:58:46,086 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64417, dest: /127.0.0.1:50010, bytes: 116, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-488232012_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_4808030241158380560_1103, duration: 2323950
+2017-09-19 14:58:46,087 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_4808030241158380560_1103 terminating
+2017-09-19 14:58:46,098 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-1332615584602778695_1104 src: /127.0.0.1:64418 dest: /127.0.0.1:50010
+2017-09-19 14:58:46,100 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64418, dest: /127.0.0.1:50010, bytes: 26, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-488232012_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-1332615584602778695_1104, duration: 955734
+2017-09-19 14:58:46,101 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-1332615584602778695_1104 terminating
+2017-09-19 14:58:46,199 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_1116127002475603810_1105 src: /127.0.0.1:64419 dest: /127.0.0.1:50010
+2017-09-19 14:58:46,206 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64419, dest: /127.0.0.1:50010, bytes: 33997, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-488232012_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_1116127002475603810_1105, duration: 4841097
+2017-09-19 14:58:46,207 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_1116127002475603810_1105 terminating
+2017-09-19 14:58:46,218 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_1802790208170207706_1106 src: /127.0.0.1:64421 dest: /127.0.0.1:50010
+2017-09-19 14:58:46,221 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64421, dest: /127.0.0.1:50010, bytes: 134, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-1130123778_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_1802790208170207706_1106, duration: 999706
+2017-09-19 14:58:46,221 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_1802790208170207706_1106 terminating
+2017-09-19 14:58:46,227 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_5585237648867852274_1107 src: /127.0.0.1:64422 dest: /127.0.0.1:50010
+2017-09-19 14:58:46,229 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64422, dest: /127.0.0.1:50010, bytes: 106, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-1130123778_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_5585237648867852274_1107, duration: 1271072
+2017-09-19 14:58:46,230 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_5585237648867852274_1107 terminating
+2017-09-19 14:58:46,243 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64424, bytes: 34265, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_1082022361_29, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_1116127002475603810_1105, duration: 536698
+2017-09-19 14:58:46,274 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-6623605251204443998_1109 src: /127.0.0.1:64425 dest: /127.0.0.1:50010
+2017-09-19 14:58:46,277 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:64425, dest: /127.0.0.1:50010, bytes: 52532, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_1082022361_29, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-6623605251204443998_1109, duration: 1255852
+2017-09-19 14:58:46,277 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-6623605251204443998_1109 terminating
+2017-09-19 14:58:46,321 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64426, bytes: 30, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_1082022361_29, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-1332615584602778695_1104, duration: 413489
+2017-09-19 14:58:46,372 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64428, bytes: 110, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_1543982552_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_5585237648867852274_1107, duration: 595498
+2017-09-19 14:58:46,383 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64430, bytes: 34265, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_-1081430379_362, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_1116127002475603810_1105, duration: 481388
+2017-09-19 14:58:46,442 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64431, bytes: 143842, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_-1081430379_362, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8263866324040161233_1102, duration: 805299
+2017-09-19 14:58:49,356 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64442, bytes: 120, op: HDFS_READ, cliID: DFSClient_attempt_201709171515_0008_m_000000_0_1811625186_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_4808030241158380560_1103, duration: 260158
+2017-09-19 14:58:49,441 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:64443, bytes: 2483, op: HDFS_READ, cliID: DFSClient_attempt_201709171515_0008_m_000000_0_1811625186_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_5105055954242482678_1092, duration: 370965
+2017-09-19 14:59:35,355 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-6623605251204443998_1109 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-6623605251204443998 for deletion
+2017-09-19 14:59:35,356 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-6623605251204443998_1109 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-6623605251204443998
+2017-09-19 15:06:59,797 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: java.io.IOException: Call to localhost/127.0.0.1:9000 failed on local exception: java.io.IOException: Connection reset by peer
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1150)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1118)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:229)
+	at com.sun.proxy.$Proxy4.sendHeartbeat(Unknown Source)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.offerService(DataNode.java:1031)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.run(DataNode.java:1588)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.hadoop.net.SocketInputStream$Reader.performIO(SocketInputStream.java:55)
+	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:142)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:155)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:128)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:364)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:389)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:845)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:790)
+
+2017-09-19 15:07:03,799 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: localhost/127.0.0.1:9000. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1 SECONDS)
+2017-09-19 15:07:04,514 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at Joakims-MacBook-Pro.local/172.30.1.7
+************************************************************/
+2017-09-19 15:45:11,810 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = Joakims-MacBook-Pro.local/192.168.0.5
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.1
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-1.2 -r 1503152; compiled by 'mattf' on Mon Jul 22 15:23:09 PDT 2013
+STARTUP_MSG:   java = 1.8.0_74
+************************************************************/
+2017-09-19 15:45:12,049 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2017-09-19 15:45:12,093 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2017-09-19 15:45:12,095 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2017-09-19 15:45:12,095 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2017-09-19 15:45:12,298 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2017-09-19 15:45:12,307 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2017-09-19 15:45:12,906 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2017-09-19 15:45:12,925 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened data transfer server at 50010
+2017-09-19 15:45:12,928 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2017-09-19 15:45:12,945 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-09-19 15:45:12,997 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2017-09-19 15:45:13,067 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2017-09-19 15:45:13,097 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = false
+2017-09-19 15:45:13,097 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2017-09-19 15:45:13,108 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2017-09-19 15:45:13,112 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2017-09-19 15:45:13,112 INFO org.mortbay.log: jetty-6.1.26
+2017-09-19 15:45:13,595 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2017-09-19 15:45:13,606 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2017-09-19 15:45:13,607 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2017-09-19 15:45:14,081 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2017-09-19 15:45:14,089 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort50020 registered.
+2017-09-19 15:45:14,090 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort50020 registered.
+2017-09-19 15:45:14,092 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(192.168.0.5:50010, storageID=DS-804248980-192.168.0.5-50010-1505622244595, infoPort=50075, ipcPort=50020)
+2017-09-19 15:45:14,110 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2017-09-19 15:45:14,115 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 2ms
+2017-09-19 15:45:14,115 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(127.0.0.1:50010, storageID=DS-804248980-192.168.0.5-50010-1505622244595, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current'}
+2017-09-19 15:45:14,116 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-09-19 15:45:14,116 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2017-09-19 15:45:14,117 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2017-09-19 15:45:14,117 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2017-09-19 15:45:14,117 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2017-09-19 15:45:14,117 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2017-09-19 15:45:14,128 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 21 blocks took 2 msec to generate and 7 msecs for RPC and NN processing
+2017-09-19 15:45:14,129 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner
+2017-09-19 15:45:14,130 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 1 ms
+2017-09-19 15:45:14,184 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded blk_1802790208170207706_1106
+2017-09-19 15:45:45,251 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-5492251983798546527_1110 src: /127.0.0.1:54506 dest: /127.0.0.1:50010
+2017-09-19 15:45:45,262 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54506, dest: /127.0.0.1:50010, bytes: 4, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2054108452_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-5492251983798546527_1110, duration: 3048369
+2017-09-19 15:45:45,264 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-5492251983798546527_1110 terminating
+2017-09-19 15:45:50,146 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-7571249480227742408_1060 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-7571249480227742408 for deletion
+2017-09-19 15:45:50,147 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-5887987021910814200_1098 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-5887987021910814200 for deletion
+2017-09-19 15:45:50,147 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_1802790208170207706_1106 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_1802790208170207706 for deletion
+2017-09-19 15:45:50,147 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-7571249480227742408_1060 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-7571249480227742408
+2017-09-19 15:45:50,147 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_5193507875407183790_1097 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_5193507875407183790 for deletion
+2017-09-19 15:45:50,147 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_5585237648867852274_1107 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_5585237648867852274 for deletion
+2017-09-19 15:45:50,147 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-5887987021910814200_1098 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-5887987021910814200
+2017-09-19 15:45:50,147 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_1802790208170207706_1106 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_1802790208170207706
+2017-09-19 15:45:50,148 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_5193507875407183790_1097 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_5193507875407183790
+2017-09-19 15:45:50,148 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_5585237648867852274_1107 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_5585237648867852274
+2017-09-19 15:46:04,773 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_3856751410087093931_1111 src: /127.0.0.1:54547 dest: /127.0.0.1:50010
+2017-09-19 15:46:04,778 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54547, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_3856751410087093931_1111, duration: 2661406
+2017-09-19 15:46:04,778 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_3856751410087093931_1111 terminating
+2017-09-19 15:46:04,794 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_6406187514134403405_1112 src: /127.0.0.1:54548 dest: /127.0.0.1:50010
+2017-09-19 15:46:04,797 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54548, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_6406187514134403405_1112, duration: 854530
+2017-09-19 15:46:04,797 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_6406187514134403405_1112 terminating
+2017-09-19 15:46:04,811 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_199148355030575280_1113 src: /127.0.0.1:54549 dest: /127.0.0.1:50010
+2017-09-19 15:46:04,837 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54549, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_199148355030575280_1113, duration: 1553098
+2017-09-19 15:46:04,838 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_199148355030575280_1113 terminating
+2017-09-19 15:46:04,850 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_8698126322565389124_1114 src: /127.0.0.1:54550 dest: /127.0.0.1:50010
+2017-09-19 15:46:04,852 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54550, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_8698126322565389124_1114, duration: 949845
+2017-09-19 15:46:04,852 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_8698126322565389124_1114 terminating
+2017-09-19 15:46:04,865 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-3795526848311940681_1115 src: /127.0.0.1:54551 dest: /127.0.0.1:50010
+2017-09-19 15:46:04,874 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54551, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3795526848311940681_1115, duration: 2099434
+2017-09-19 15:46:04,875 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-3795526848311940681_1115 terminating
+2017-09-19 15:46:04,899 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-411276734798855493_1116 src: /127.0.0.1:54552 dest: /127.0.0.1:50010
+2017-09-19 15:46:04,902 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54552, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-411276734798855493_1116, duration: 1416555
+2017-09-19 15:46:04,903 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-411276734798855493_1116 terminating
+2017-09-19 15:46:04,916 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_4234427215293169201_1117 src: /127.0.0.1:54553 dest: /127.0.0.1:50010
+2017-09-19 15:46:04,918 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54553, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_4234427215293169201_1117, duration: 891815
+2017-09-19 15:46:04,919 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_4234427215293169201_1117 terminating
+2017-09-19 15:46:04,936 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-4705837342855848076_1118 src: /127.0.0.1:54554 dest: /127.0.0.1:50010
+2017-09-19 15:46:04,944 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54554, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-4705837342855848076_1118, duration: 3152757
+2017-09-19 15:46:04,951 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-4705837342855848076_1118 terminating
+2017-09-19 15:46:04,973 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-6883216742755860527_1119 src: /127.0.0.1:54555 dest: /127.0.0.1:50010
+2017-09-19 15:46:04,981 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54555, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-6883216742755860527_1119, duration: 1148759
+2017-09-19 15:46:04,981 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-6883216742755860527_1119 terminating
+2017-09-19 15:46:04,988 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_232495543812240759_1120 src: /127.0.0.1:54556 dest: /127.0.0.1:50010
+2017-09-19 15:46:04,991 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54556, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_232495543812240759_1120, duration: 1410110
+2017-09-19 15:46:04,992 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_232495543812240759_1120 terminating
+2017-09-19 15:46:05,148 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_4193720075069757536_1121 src: /127.0.0.1:54558 dest: /127.0.0.1:50010
+2017-09-19 15:46:05,158 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54558, dest: /127.0.0.1:50010, bytes: 142726, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_4193720075069757536_1121, duration: 6770511
+2017-09-19 15:46:05,158 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_4193720075069757536_1121 terminating
+2017-09-19 15:46:05,216 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-3608351623243254270_1122 src: /127.0.0.1:54559 dest: /127.0.0.1:50010
+2017-09-19 15:46:05,219 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54559, dest: /127.0.0.1:50010, bytes: 1227, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3608351623243254270_1122, duration: 1270481
+2017-09-19 15:46:05,220 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-3608351623243254270_1122 terminating
+2017-09-19 15:46:05,239 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-7154649976203450931_1123 src: /127.0.0.1:54560 dest: /127.0.0.1:50010
+2017-09-19 15:46:05,244 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54560, dest: /127.0.0.1:50010, bytes: 176, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-7154649976203450931_1123, duration: 2915083
+2017-09-19 15:46:05,245 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-7154649976203450931_1123 terminating
+2017-09-19 15:46:05,352 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_2083969301014811581_1124 src: /127.0.0.1:54563 dest: /127.0.0.1:50010
+2017-09-19 15:46:05,355 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54563, dest: /127.0.0.1:50010, bytes: 33995, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_2083969301014811581_1124, duration: 1408627
+2017-09-19 15:46:05,356 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_2083969301014811581_1124 terminating
+2017-09-19 15:46:05,373 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_8743921526508030855_1125 src: /127.0.0.1:54565 dest: /127.0.0.1:50010
+2017-09-19 15:46:05,376 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54565, dest: /127.0.0.1:50010, bytes: 134, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2054108452_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_8743921526508030855_1125, duration: 1247461
+2017-09-19 15:46:05,376 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_8743921526508030855_1125 terminating
+2017-09-19 15:46:05,390 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_6072173998998201905_1126 src: /127.0.0.1:54566 dest: /127.0.0.1:50010
+2017-09-19 15:46:05,394 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54566, dest: /127.0.0.1:50010, bytes: 106, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2054108452_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_6072173998998201905_1126, duration: 2222104
+2017-09-19 15:46:05,394 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_6072173998998201905_1126 terminating
+2017-09-19 15:46:05,428 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54568, bytes: 34263, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_-1365769403_30, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_2083969301014811581_1124, duration: 2392563
+2017-09-19 15:46:05,621 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-1913859252076821233_1128 src: /127.0.0.1:54569 dest: /127.0.0.1:50010
+2017-09-19 15:46:05,625 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54569, dest: /127.0.0.1:50010, bytes: 52486, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-1365769403_30, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-1913859252076821233_1128, duration: 2163423
+2017-09-19 15:46:05,626 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-1913859252076821233_1128 terminating
+2017-09-19 15:46:05,636 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54570, bytes: 180, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_-1365769403_30, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-7154649976203450931_1123, duration: 349411
+2017-09-19 15:46:05,992 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54572, bytes: 110, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_-1702341190_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_6072173998998201905_1126, duration: 412302
+2017-09-19 15:46:06,021 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54574, bytes: 34263, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_688961456_38, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_2083969301014811581_1124, duration: 542288
+2017-09-19 15:46:06,235 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54575, bytes: 143842, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_688961456_38, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_4193720075069757536_1121, duration: 1046122
+2017-09-19 15:46:09,945 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54590, bytes: 1239, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000001_0_70885645_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3608351623243254270_1122, duration: 541913
+2017-09-19 15:46:09,950 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54591, bytes: 1239, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000000_0_-1918755867_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3608351623243254270_1122, duration: 571418
+2017-09-19 15:46:09,977 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54592, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000001_0_70885645_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_6406187514134403405_1112, duration: 913008
+2017-09-19 15:46:09,981 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54593, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000000_0_-1918755867_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_3856751410087093931_1111, duration: 352731
+2017-09-19 15:46:13,262 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54606, bytes: 1239, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000002_0_574342209_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3608351623243254270_1122, duration: 535586
+2017-09-19 15:46:13,282 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54607, bytes: 1239, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000003_0_389592473_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3608351623243254270_1122, duration: 618959
+2017-09-19 15:46:13,316 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54610, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000003_0_389592473_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_8698126322565389124_1114, duration: 479397
+2017-09-19 15:46:13,323 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54611, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000002_0_574342209_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_199148355030575280_1113, duration: 345707
+2017-09-19 15:46:15,792 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54620, bytes: 1239, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000004_0_-536267673_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3608351623243254270_1122, duration: 498257
+2017-09-19 15:46:15,797 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54621, bytes: 723, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000005_0_-946576702_1, offset: 512, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3608351623243254270_1122, duration: 463739
+2017-09-19 15:46:15,825 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54622, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000004_0_-536267673_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3795526848311940681_1115, duration: 414590
+2017-09-19 15:46:15,833 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54623, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000005_0_-946576702_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-411276734798855493_1116, duration: 453142
+2017-09-19 15:46:18,297 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54632, bytes: 723, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000007_0_-173167885_1, offset: 512, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3608351623243254270_1122, duration: 566044
+2017-09-19 15:46:18,310 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54635, bytes: 723, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000006_0_1320925418_1, offset: 512, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3608351623243254270_1122, duration: 520448
+2017-09-19 15:46:18,330 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54636, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000007_0_-173167885_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-4705837342855848076_1118, duration: 371115
+2017-09-19 15:46:18,353 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54637, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000006_0_1320925418_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_4234427215293169201_1117, duration: 345781
+2017-09-19 15:46:20,968 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54646, bytes: 723, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000008_0_-1639696578_1, offset: 512, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3608351623243254270_1122, duration: 655180
+2017-09-19 15:46:21,007 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54647, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000008_0_-1639696578_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-6883216742755860527_1119, duration: 360094
+2017-09-19 15:46:21,088 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54649, bytes: 207, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000009_0_75074715_1, offset: 1024, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3608351623243254270_1122, duration: 404191
+2017-09-19 15:46:21,113 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54650, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0001_m_000009_0_75074715_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_232495543812240759_1120, duration: 335306
+2017-09-19 15:46:24,636 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_3991821746993418363_1130 src: /127.0.0.1:54662 dest: /127.0.0.1:50010
+2017-09-19 15:46:24,640 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54662, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_attempt_201709191545_0001_r_000000_0_192562460_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_3991821746993418363_1130, duration: 2694253
+2017-09-19 15:46:24,641 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_3991821746993418363_1130 terminating
+2017-09-19 15:46:24,645 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_9205631205233708488_1130 src: /127.0.0.1:54663 dest: /127.0.0.1:50010
+2017-09-19 15:46:24,649 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54663, dest: /127.0.0.1:50010, bytes: 97, op: HDFS_WRITE, cliID: DFSClient_attempt_201709191545_0001_r_000000_0_192562460_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_9205631205233708488_1130, duration: 1947675
+2017-09-19 15:46:24,650 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_9205631205233708488_1130 terminating
+2017-09-19 15:46:27,291 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_607950090559577916_1131 src: /127.0.0.1:54671 dest: /127.0.0.1:50010
+2017-09-19 15:46:27,294 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:54671, dest: /127.0.0.1:50010, bytes: 33955, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-1365769403_30, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_607950090559577916_1131, duration: 1254501
+2017-09-19 15:46:27,294 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_607950090559577916_1131 terminating
+2017-09-19 15:46:27,635 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:54677, bytes: 122, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_163526482_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_3991821746993418363_1130, duration: 636985
+2017-09-19 15:46:32,182 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-7154649976203450931_1123 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-7154649976203450931 for deletion
+2017-09-19 15:46:32,183 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-6883216742755860527_1119 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-6883216742755860527 for deletion
+2017-09-19 15:46:32,183 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-4705837342855848076_1118 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-4705837342855848076 for deletion
+2017-09-19 15:46:32,183 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-3795526848311940681_1115 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-3795526848311940681 for deletion
+2017-09-19 15:46:32,183 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-7154649976203450931_1123 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-7154649976203450931
+2017-09-19 15:46:32,183 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-3608351623243254270_1122 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-3608351623243254270 for deletion
+2017-09-19 15:46:32,183 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-1913859252076821233_1128 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-1913859252076821233 for deletion
+2017-09-19 15:46:32,183 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-411276734798855493_1116 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-411276734798855493 for deletion
+2017-09-19 15:46:32,183 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-6883216742755860527_1119 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-6883216742755860527
+2017-09-19 15:46:32,183 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_199148355030575280_1113 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_199148355030575280 for deletion
+2017-09-19 15:46:32,184 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_232495543812240759_1120 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_232495543812240759 for deletion
+2017-09-19 15:46:32,184 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_607950090559577916_1131 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_607950090559577916 for deletion
+2017-09-19 15:46:32,184 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-4705837342855848076_1118 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-4705837342855848076
+2017-09-19 15:46:32,184 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_2083969301014811581_1124 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_2083969301014811581 for deletion
+2017-09-19 15:46:32,184 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_3856751410087093931_1111 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_3856751410087093931 for deletion
+2017-09-19 15:46:32,184 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-3795526848311940681_1115 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-3795526848311940681
+2017-09-19 15:46:32,184 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_3991821746993418363_1130 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_3991821746993418363 for deletion
+2017-09-19 15:46:32,184 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_4193720075069757536_1121 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_4193720075069757536 for deletion
+2017-09-19 15:46:32,184 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-3608351623243254270_1122 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-3608351623243254270
+2017-09-19 15:46:32,184 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_4234427215293169201_1117 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_4234427215293169201 for deletion
+2017-09-19 15:46:32,185 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_6072173998998201905_1126 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_6072173998998201905 for deletion
+2017-09-19 15:46:32,185 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_6406187514134403405_1112 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_6406187514134403405 for deletion
+2017-09-19 15:46:32,185 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-1913859252076821233_1128 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-1913859252076821233
+2017-09-19 15:46:32,185 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_8698126322565389124_1114 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_8698126322565389124 for deletion
+2017-09-19 15:46:32,185 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_8743921526508030855_1125 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_8743921526508030855 for deletion
+2017-09-19 15:46:32,185 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-411276734798855493_1116 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-411276734798855493
+2017-09-19 15:46:32,185 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_9205631205233708488_1130 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_9205631205233708488 for deletion
+2017-09-19 15:46:32,185 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_199148355030575280_1113 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_199148355030575280
+2017-09-19 15:46:32,186 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_232495543812240759_1120 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_232495543812240759
+2017-09-19 15:46:32,186 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_607950090559577916_1131 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_607950090559577916
+2017-09-19 15:46:32,187 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_2083969301014811581_1124 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_2083969301014811581
+2017-09-19 15:46:32,187 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_3856751410087093931_1111 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_3856751410087093931
+2017-09-19 15:46:32,187 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_3991821746993418363_1130 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_3991821746993418363
+2017-09-19 15:46:32,187 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_4193720075069757536_1121 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_4193720075069757536
+2017-09-19 15:46:32,188 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_4234427215293169201_1117 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_4234427215293169201
+2017-09-19 15:46:32,188 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_6072173998998201905_1126 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_6072173998998201905
+2017-09-19 15:46:32,188 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_6406187514134403405_1112 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_6406187514134403405
+2017-09-19 15:46:32,189 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_8698126322565389124_1114 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_8698126322565389124
+2017-09-19 15:46:32,189 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_8743921526508030855_1125 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_8743921526508030855
+2017-09-19 15:46:32,190 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_9205631205233708488_1130 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_9205631205233708488
+2017-09-19 16:01:12,005 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 9ms
+2017-09-19 16:01:14,998 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 17 blocks took 0 msec to generate and 3 msecs for RPC and NN processing
+2017-09-19 16:05:14,490 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded blk_4808030241158380560_1103
+2017-09-19 16:15:14,622 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded blk_-9067984877918059612_1101
+2017-09-19 16:19:13,374 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_4471150714824978961_1132 src: /127.0.0.1:58962 dest: /127.0.0.1:50010
+2017-09-19 16:19:13,379 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58962, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_4471150714824978961_1132, duration: 2392353
+2017-09-19 16:19:13,379 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_4471150714824978961_1132 terminating
+2017-09-19 16:19:13,391 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_2312145490921902547_1133 src: /127.0.0.1:58963 dest: /127.0.0.1:50010
+2017-09-19 16:19:13,393 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58963, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_2312145490921902547_1133, duration: 763093
+2017-09-19 16:19:13,393 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_2312145490921902547_1133 terminating
+2017-09-19 16:19:13,402 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_6626666642739305877_1134 src: /127.0.0.1:58964 dest: /127.0.0.1:50010
+2017-09-19 16:19:13,404 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58964, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_6626666642739305877_1134, duration: 699410
+2017-09-19 16:19:13,405 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_6626666642739305877_1134 terminating
+2017-09-19 16:19:13,411 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_2956490244077290190_1135 src: /127.0.0.1:58965 dest: /127.0.0.1:50010
+2017-09-19 16:19:13,413 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58965, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_2956490244077290190_1135, duration: 611448
+2017-09-19 16:19:13,413 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_2956490244077290190_1135 terminating
+2017-09-19 16:19:13,421 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_4819511539339688673_1136 src: /127.0.0.1:58966 dest: /127.0.0.1:50010
+2017-09-19 16:19:13,425 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58966, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_4819511539339688673_1136, duration: 1142103
+2017-09-19 16:19:13,425 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_4819511539339688673_1136 terminating
+2017-09-19 16:19:13,449 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-2729956946018311267_1137 src: /127.0.0.1:58967 dest: /127.0.0.1:50010
+2017-09-19 16:19:13,452 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58967, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-2729956946018311267_1137, duration: 1026553
+2017-09-19 16:19:13,452 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-2729956946018311267_1137 terminating
+2017-09-19 16:19:13,458 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_7109016252749871158_1138 src: /127.0.0.1:58968 dest: /127.0.0.1:50010
+2017-09-19 16:19:13,460 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58968, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_7109016252749871158_1138, duration: 792631
+2017-09-19 16:19:13,460 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_7109016252749871158_1138 terminating
+2017-09-19 16:19:13,472 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-8132386240115622008_1139 src: /127.0.0.1:58969 dest: /127.0.0.1:50010
+2017-09-19 16:19:13,479 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58969, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8132386240115622008_1139, duration: 1788872
+2017-09-19 16:19:13,480 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-8132386240115622008_1139 terminating
+2017-09-19 16:19:13,497 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-3821825151665060448_1140 src: /127.0.0.1:58970 dest: /127.0.0.1:50010
+2017-09-19 16:19:13,500 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58970, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3821825151665060448_1140, duration: 950859
+2017-09-19 16:19:13,500 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-3821825151665060448_1140 terminating
+2017-09-19 16:19:13,512 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-498335570641667614_1141 src: /127.0.0.1:58971 dest: /127.0.0.1:50010
+2017-09-19 16:19:13,520 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58971, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-498335570641667614_1141, duration: 6132819
+2017-09-19 16:19:13,520 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-498335570641667614_1141 terminating
+2017-09-19 16:19:13,679 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-45563405234429881_1142 src: /127.0.0.1:58973 dest: /127.0.0.1:50010
+2017-09-19 16:19:13,686 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58973, dest: /127.0.0.1:50010, bytes: 142726, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-45563405234429881_1142, duration: 5115933
+2017-09-19 16:19:13,687 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-45563405234429881_1142 terminating
+2017-09-19 16:19:13,882 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-8036323699736478850_1143 src: /127.0.0.1:58974 dest: /127.0.0.1:50010
+2017-09-19 16:19:13,884 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58974, dest: /127.0.0.1:50010, bytes: 1227, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8036323699736478850_1143, duration: 973156
+2017-09-19 16:19:13,884 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-8036323699736478850_1143 terminating
+2017-09-19 16:19:13,901 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_8838068631231594244_1144 src: /127.0.0.1:58975 dest: /127.0.0.1:50010
+2017-09-19 16:19:13,904 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58975, dest: /127.0.0.1:50010, bytes: 176, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_8838068631231594244_1144, duration: 912294
+2017-09-19 16:19:13,904 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_8838068631231594244_1144 terminating
+2017-09-19 16:19:14,005 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-4074901573046484126_1145 src: /127.0.0.1:58976 dest: /127.0.0.1:50010
+2017-09-19 16:19:14,008 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58976, dest: /127.0.0.1:50010, bytes: 33995, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-4074901573046484126_1145, duration: 527371
+2017-09-19 16:19:14,008 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-4074901573046484126_1145 terminating
+2017-09-19 16:19:14,026 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-4386211105233669066_1146 src: /127.0.0.1:58978 dest: /127.0.0.1:50010
+2017-09-19 16:19:14,030 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58978, dest: /127.0.0.1:50010, bytes: 134, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2054108452_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-4386211105233669066_1146, duration: 1278991
+2017-09-19 16:19:14,030 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-4386211105233669066_1146 terminating
+2017-09-19 16:19:14,038 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-5104574432913862982_1147 src: /127.0.0.1:58979 dest: /127.0.0.1:50010
+2017-09-19 16:19:14,041 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58979, dest: /127.0.0.1:50010, bytes: 106, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2054108452_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-5104574432913862982_1147, duration: 1040682
+2017-09-19 16:19:14,041 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-5104574432913862982_1147 terminating
+2017-09-19 16:19:14,055 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:58981, bytes: 34263, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_48498947_26, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-4074901573046484126_1145, duration: 571842
+2017-09-19 16:19:14,114 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-2893771001253373738_1149 src: /127.0.0.1:58982 dest: /127.0.0.1:50010
+2017-09-19 16:19:14,128 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:58982, dest: /127.0.0.1:50010, bytes: 52486, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_48498947_26, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-2893771001253373738_1149, duration: 10772876
+2017-09-19 16:19:14,128 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-2893771001253373738_1149 terminating
+2017-09-19 16:19:14,155 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:58983, bytes: 180, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_48498947_26, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_8838068631231594244_1144, duration: 809964
+2017-09-19 16:19:14,418 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:58987, bytes: 110, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_-1702341190_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-5104574432913862982_1147, duration: 458709
+2017-09-19 16:19:14,430 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:58989, bytes: 34263, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_-106859538_197, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-4074901573046484126_1145, duration: 554621
+2017-09-19 16:19:14,511 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:58990, bytes: 143842, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_-106859538_197, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-45563405234429881_1142, duration: 904367
+2017-09-19 16:19:18,312 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59004, bytes: 1239, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000000_0_-867205034_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8036323699736478850_1143, duration: 507343
+2017-09-19 16:19:18,333 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59006, bytes: 1239, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000001_0_869908588_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8036323699736478850_1143, duration: 554139
+2017-09-19 16:19:18,343 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59007, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000000_0_-867205034_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_4471150714824978961_1132, duration: 467915
+2017-09-19 16:19:18,361 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59008, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000001_0_869908588_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_2312145490921902547_1133, duration: 836647
+2017-09-19 16:19:21,468 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59020, bytes: 1239, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000002_0_-260296133_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8036323699736478850_1143, duration: 549105
+2017-09-19 16:19:21,506 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59021, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000002_0_-260296133_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_6626666642739305877_1134, duration: 434774
+2017-09-19 16:19:21,534 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59023, bytes: 1239, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000003_0_-1522418206_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8036323699736478850_1143, duration: 514710
+2017-09-19 16:19:21,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59024, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000003_0_-1522418206_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_2956490244077290190_1135, duration: 434013
+2017-09-19 16:19:23,785 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59032, bytes: 723, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000005_0_-1299355155_1, offset: 512, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8036323699736478850_1143, duration: 505261
+2017-09-19 16:19:23,810 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59034, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000005_0_-1299355155_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-2729956946018311267_1137, duration: 456115
+2017-09-19 16:19:23,814 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59035, bytes: 1239, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000004_0_-307328813_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8036323699736478850_1143, duration: 499470
+2017-09-19 16:19:23,846 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59036, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000004_0_-307328813_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_4819511539339688673_1136, duration: 495390
+2017-09-19 16:19:26,121 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59045, bytes: 723, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000006_0_-1750883332_1, offset: 512, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8036323699736478850_1143, duration: 521659
+2017-09-19 16:19:26,130 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59046, bytes: 723, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000007_0_-1058282237_1, offset: 512, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8036323699736478850_1143, duration: 506616
+2017-09-19 16:19:26,150 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59047, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000006_0_-1750883332_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_7109016252749871158_1138, duration: 409795
+2017-09-19 16:19:26,157 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59048, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000007_0_-1058282237_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8132386240115622008_1139, duration: 471014
+2017-09-19 16:19:28,657 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59060, bytes: 723, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000008_0_-574375535_1, offset: 512, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8036323699736478850_1143, duration: 504766
+2017-09-19 16:19:28,688 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59062, bytes: 207, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000009_0_-2003320014_1, offset: 1024, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-8036323699736478850_1143, duration: 409128
+2017-09-19 16:19:28,691 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59063, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000008_0_-574375535_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3821825151665060448_1140, duration: 358482
+2017-09-19 16:19:28,727 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59064, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709191545_0002_m_000009_0_-2003320014_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-498335570641667614_1141, duration: 372113
+2017-09-19 16:19:32,666 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_5891847111172606991_1151 src: /127.0.0.1:59075 dest: /127.0.0.1:50010
+2017-09-19 16:19:32,670 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:59075, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_attempt_201709191545_0002_r_000000_0_1780986939_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_5891847111172606991_1151, duration: 2276347
+2017-09-19 16:19:32,670 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_5891847111172606991_1151 terminating
+2017-09-19 16:19:32,675 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_5167144353373689033_1151 src: /127.0.0.1:59076 dest: /127.0.0.1:50010
+2017-09-19 16:19:32,677 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:59076, dest: /127.0.0.1:50010, bytes: 97, op: HDFS_WRITE, cliID: DFSClient_attempt_201709191545_0002_r_000000_0_1780986939_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_5167144353373689033_1151, duration: 944832
+2017-09-19 16:19:32,677 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_5167144353373689033_1151 terminating
+2017-09-19 16:19:35,413 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_8771088063672372664_1152 src: /127.0.0.1:59086 dest: /127.0.0.1:50010
+2017-09-19 16:19:35,416 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:59086, dest: /127.0.0.1:50010, bytes: 33955, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_48498947_26, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_8771088063672372664_1152, duration: 1348724
+2017-09-19 16:19:35,416 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_8771088063672372664_1152 terminating
+2017-09-19 16:19:36,226 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:59091, bytes: 122, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_39479724_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_5891847111172606991_1151, duration: 373633
+2017-09-19 16:19:40,366 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-8132386240115622008_1139 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-8132386240115622008 for deletion
+2017-09-19 16:19:40,366 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-8036323699736478850_1143 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-8036323699736478850 for deletion
+2017-09-19 16:19:40,367 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-5104574432913862982_1147 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-5104574432913862982 for deletion
+2017-09-19 16:19:40,367 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-8132386240115622008_1139 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-8132386240115622008
+2017-09-19 16:19:40,367 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-4386211105233669066_1146 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-4386211105233669066 for deletion
+2017-09-19 16:19:40,367 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-4074901573046484126_1145 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-4074901573046484126 for deletion
+2017-09-19 16:19:40,367 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-8036323699736478850_1143 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-8036323699736478850
+2017-09-19 16:19:40,367 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-3821825151665060448_1140 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-3821825151665060448 for deletion
+2017-09-19 16:19:40,367 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-2893771001253373738_1149 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-2893771001253373738 for deletion
+2017-09-19 16:19:40,367 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-2729956946018311267_1137 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-2729956946018311267 for deletion
+2017-09-19 16:19:40,367 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-5104574432913862982_1147 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-5104574432913862982
+2017-09-19 16:19:40,367 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-498335570641667614_1141 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-498335570641667614 for deletion
+2017-09-19 16:19:40,367 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-45563405234429881_1142 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-45563405234429881 for deletion
+2017-09-19 16:19:40,368 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-4386211105233669066_1146 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-4386211105233669066
+2017-09-19 16:19:40,368 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_2312145490921902547_1133 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_2312145490921902547 for deletion
+2017-09-19 16:19:40,368 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_2956490244077290190_1135 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_2956490244077290190 for deletion
+2017-09-19 16:19:40,368 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-4074901573046484126_1145 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-4074901573046484126
+2017-09-19 16:19:40,368 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_4471150714824978961_1132 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_4471150714824978961 for deletion
+2017-09-19 16:19:40,368 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_4819511539339688673_1136 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_4819511539339688673 for deletion
+2017-09-19 16:19:40,368 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-3821825151665060448_1140 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-3821825151665060448
+2017-09-19 16:19:40,368 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_5167144353373689033_1151 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_5167144353373689033 for deletion
+2017-09-19 16:19:40,368 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-2893771001253373738_1149 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-2893771001253373738
+2017-09-19 16:19:40,368 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_5891847111172606991_1151 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_5891847111172606991 for deletion
+2017-09-19 16:19:40,368 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_6626666642739305877_1134 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_6626666642739305877 for deletion
+2017-09-19 16:19:40,369 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-2729956946018311267_1137 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-2729956946018311267
+2017-09-19 16:19:40,369 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_7109016252749871158_1138 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_7109016252749871158 for deletion
+2017-09-19 16:19:40,369 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_8771088063672372664_1152 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_8771088063672372664 for deletion
+2017-09-19 16:19:40,369 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_8838068631231594244_1144 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_8838068631231594244 for deletion
+2017-09-19 16:19:40,369 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-498335570641667614_1141 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-498335570641667614
+2017-09-19 16:19:40,370 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-45563405234429881_1142 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-45563405234429881
+2017-09-19 16:19:40,370 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_2312145490921902547_1133 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_2312145490921902547
+2017-09-19 16:19:40,370 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_2956490244077290190_1135 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_2956490244077290190
+2017-09-19 16:19:40,370 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_4471150714824978961_1132 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_4471150714824978961
+2017-09-19 16:19:40,371 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_4819511539339688673_1136 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_4819511539339688673
+2017-09-19 16:19:40,371 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_5167144353373689033_1151 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_5167144353373689033
+2017-09-19 16:19:40,371 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_5891847111172606991_1151 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_5891847111172606991
+2017-09-19 16:19:40,371 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_6626666642739305877_1134 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_6626666642739305877
+2017-09-19 16:19:40,372 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_7109016252749871158_1138 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_7109016252749871158
+2017-09-19 16:19:40,372 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_8771088063672372664_1152 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_8771088063672372664
+2017-09-19 16:19:40,372 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_8838068631231594244_1144 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_8838068631231594244
+2017-09-19 16:25:14,400 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded blk_8564810556156039149_1094
+2017-09-19 17:01:12,742 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 11ms
+2017-09-19 17:01:15,745 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 17 blocks took 0 msec to generate and 9 msecs for RPC and NN processing
+2017-09-19 18:01:13,046 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 11ms
+2017-09-19 18:01:16,043 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 17 blocks took 0 msec to generate and 3 msecs for RPC and NN processing
+2017-09-19 18:30:02,667 WARN org.apache.hadoop.hdfs.server.datanode.DataNode: java.io.IOException: Call to localhost/127.0.0.1:9000 failed on local exception: java.io.IOException: Connection reset by peer
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1150)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1118)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:229)
+	at com.sun.proxy.$Proxy4.sendHeartbeat(Unknown Source)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.offerService(DataNode.java:1031)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.run(DataNode.java:1588)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.hadoop.net.SocketInputStream$Reader.performIO(SocketInputStream.java:55)
+	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:142)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:155)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:128)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:364)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:388)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:845)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:790)
+
+2017-09-19 18:30:05,625 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at Joakims-MacBook-Pro.local/192.168.0.5
+************************************************************/
+2017-09-19 22:03:11,231 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = Joakims-MacBook-Pro.local/192.168.0.5
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.2.1
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-1.2 -r 1503152; compiled by 'mattf' on Mon Jul 22 15:23:09 PDT 2013
+STARTUP_MSG:   java = 1.8.0_74
+************************************************************/
+2017-09-19 22:03:11,686 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2017-09-19 22:03:11,747 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2017-09-19 22:03:11,754 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2017-09-19 22:03:11,755 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2017-09-19 22:03:12,066 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2017-09-19 22:03:12,080 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2017-09-19 22:03:13,586 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2017-09-19 22:03:13,603 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened data transfer server at 50010
+2017-09-19 22:03:13,608 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+2017-09-19 22:03:13,625 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-09-19 22:03:13,688 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2017-09-19 22:03:13,808 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2017-09-19 22:03:13,840 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = false
+2017-09-19 22:03:13,840 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2017-09-19 22:03:13,841 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2017-09-19 22:03:13,841 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2017-09-19 22:03:13,841 INFO org.mortbay.log: jetty-6.1.26
+2017-09-19 22:03:14,490 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2017-09-19 22:03:14,500 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2017-09-19 22:03:14,563 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2017-09-19 22:03:15,009 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2017-09-19 22:03:15,013 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort50020 registered.
+2017-09-19 22:03:15,013 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort50020 registered.
+2017-09-19 22:03:15,016 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(192.168.0.5:50010, storageID=DS-804248980-192.168.0.5-50010-1505622244595, infoPort=50075, ipcPort=50020)
+2017-09-19 22:03:15,027 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2017-09-19 22:03:15,034 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 1ms
+2017-09-19 22:03:15,035 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(127.0.0.1:50010, storageID=DS-804248980-192.168.0.5-50010-1505622244595, infoPort=50075, ipcPort=50020)In DataNode.run, data = FSDataset{dirpath='/usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current'}
+2017-09-19 22:03:15,037 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 50020: starting
+2017-09-19 22:03:15,037 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-09-19 22:03:15,037 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 50020: starting
+2017-09-19 22:03:15,037 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 50020: starting
+2017-09-19 22:03:15,037 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 0msec
+2017-09-19 22:03:15,039 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 50020: starting
+2017-09-19 22:03:15,048 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 17 blocks took 1 msec to generate and 7 msecs for RPC and NN processing
+2017-09-19 22:03:15,049 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner
+2017-09-19 22:03:15,050 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 1 ms
+2017-09-19 22:03:15,142 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded blk_-5492251983798546527_1110
+2017-09-19 22:03:45,875 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_4158854555945284521_1153 src: /127.0.0.1:60418 dest: /127.0.0.1:50010
+2017-09-19 22:03:45,886 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:60418, dest: /127.0.0.1:50010, bytes: 4, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2134781838_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_4158854555945284521_1153, duration: 1988730
+2017-09-19 22:03:45,886 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_4158854555945284521_1153 terminating
+2017-09-19 22:03:51,091 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-5492251983798546527_1110 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-5492251983798546527 for deletion
+2017-09-19 22:03:51,094 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-5492251983798546527_1110 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-5492251983798546527
+2017-09-19 22:04:37,339 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_8848977237256324185_1154 src: /127.0.0.1:60530 dest: /127.0.0.1:50010
+2017-09-19 22:04:37,344 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:60530, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_496315797_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_8848977237256324185_1154, duration: 2526742
+2017-09-19 22:04:37,344 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_8848977237256324185_1154 terminating
+2017-09-19 22:04:37,526 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-557556209782985678_1155 src: /127.0.0.1:60534 dest: /127.0.0.1:50010
+2017-09-19 22:04:37,554 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:60534, dest: /127.0.0.1:50010, bytes: 142726, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_496315797_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-557556209782985678_1155, duration: 26875528
+2017-09-19 22:04:37,555 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-557556209782985678_1155 terminating
+2017-09-19 22:04:37,604 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-2467352788080361140_1156 src: /127.0.0.1:60535 dest: /127.0.0.1:50010
+2017-09-19 22:04:37,607 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:60535, dest: /127.0.0.1:50010, bytes: 129, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_496315797_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-2467352788080361140_1156, duration: 1342492
+2017-09-19 22:04:37,608 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-2467352788080361140_1156 terminating
+2017-09-19 22:04:37,621 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_6781054806397322351_1157 src: /127.0.0.1:60536 dest: /127.0.0.1:50010
+2017-09-19 22:04:37,624 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:60536, dest: /127.0.0.1:50010, bytes: 25, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_496315797_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_6781054806397322351_1157, duration: 1018218
+2017-09-19 22:04:37,625 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_6781054806397322351_1157 terminating
+2017-09-19 22:04:37,771 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-7380622770373638689_1158 src: /127.0.0.1:60537 dest: /127.0.0.1:50010
+2017-09-19 22:04:37,776 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:60537, dest: /127.0.0.1:50010, bytes: 33993, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_496315797_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-7380622770373638689_1158, duration: 2088765
+2017-09-19 22:04:37,776 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-7380622770373638689_1158 terminating
+2017-09-19 22:04:37,793 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_2473994106375110845_1159 src: /127.0.0.1:60539 dest: /127.0.0.1:50010
+2017-09-19 22:04:37,795 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:60539, dest: /127.0.0.1:50010, bytes: 134, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2134781838_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_2473994106375110845_1159, duration: 1167923
+2017-09-19 22:04:37,796 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_2473994106375110845_1159 terminating
+2017-09-19 22:04:37,807 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-128692983880094843_1160 src: /127.0.0.1:60540 dest: /127.0.0.1:50010
+2017-09-19 22:04:37,810 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:60540, dest: /127.0.0.1:50010, bytes: 106, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2134781838_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-128692983880094843_1160, duration: 1522923
+2017-09-19 22:04:37,810 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-128692983880094843_1160 terminating
+2017-09-19 22:04:37,849 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:60542, bytes: 34261, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_519426896_29, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-7380622770373638689_1158, duration: 3226241
+2017-09-19 22:04:38,032 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-3753091439694482571_1162 src: /127.0.0.1:60543 dest: /127.0.0.1:50010
+2017-09-19 22:04:38,037 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:60543, dest: /127.0.0.1:50010, bytes: 52484, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_519426896_29, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-3753091439694482571_1162, duration: 1737804
+2017-09-19 22:04:38,037 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-3753091439694482571_1162 terminating
+2017-09-19 22:04:38,053 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:60544, bytes: 29, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_519426896_29, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_6781054806397322351_1157, duration: 352473
+2017-09-19 22:04:38,293 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:60546, bytes: 110, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_-1682070042_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-128692983880094843_1160, duration: 364474
+2017-09-19 22:04:38,320 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:60548, bytes: 34261, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_-341502286_38, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-7380622770373638689_1158, duration: 598559
+2017-09-19 22:04:38,545 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:60551, bytes: 143842, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_-341502286_38, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-557556209782985678_1155, duration: 1046614
+2017-09-19 22:04:41,662 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:60562, bytes: 133, op: HDFS_READ, cliID: DFSClient_attempt_201709192203_0001_m_000000_0_1529021433_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-2467352788080361140_1156, duration: 298081
+2017-09-19 22:04:41,685 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:60563, bytes: 122, op: HDFS_READ, cliID: DFSClient_attempt_201709192203_0001_m_000000_0_1529021433_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_8848977237256324185_1154, duration: 358283
+2017-09-19 22:04:49,394 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-130376136021343779_1164 src: /127.0.0.1:60583 dest: /127.0.0.1:50010
+2017-09-19 22:04:49,399 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:60583, dest: /127.0.0.1:50010, bytes: 118, op: HDFS_WRITE, cliID: DFSClient_attempt_201709192203_0001_r_000000_0_-1932601194_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-130376136021343779_1164, duration: 3192567
+2017-09-19 22:04:49,400 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-130376136021343779_1164 terminating
+2017-09-19 22:04:49,410 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-853642964239772252_1164 src: /127.0.0.1:60584 dest: /127.0.0.1:50010
+2017-09-19 22:04:49,413 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:60584, dest: /127.0.0.1:50010, bytes: 97, op: HDFS_WRITE, cliID: DFSClient_attempt_201709192203_0001_r_000000_0_-1932601194_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-853642964239772252_1164, duration: 1653538
+2017-09-19 22:04:49,414 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-853642964239772252_1164 terminating
+2017-09-19 22:04:52,290 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving blk_-2657584699469170546_1165 src: /127.0.0.1:60594 dest: /127.0.0.1:50010
+2017-09-19 22:04:52,293 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:60594, dest: /127.0.0.1:50010, bytes: 11652, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_519426896_29, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-2657584699469170546_1165, duration: 1166575
+2017-09-19 22:04:52,293 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for blk_-2657584699469170546_1165 terminating
+2017-09-19 22:04:53,023 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /127.0.0.1:50010, dest: /127.0.0.1:60600, bytes: 122, op: HDFS_READ, cliID: DFSClient_NONMAPREDUCE_496315797_1, offset: 0, srvID: DS-804248980-192.168.0.5-50010-1505622244595, blockid: blk_-130376136021343779_1164, duration: 260486
+2017-09-19 22:04:57,149 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-7380622770373638689_1158 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-7380622770373638689 for deletion
+2017-09-19 22:04:57,149 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-3753091439694482571_1162 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-3753091439694482571 for deletion
+2017-09-19 22:04:57,149 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-2657584699469170546_1165 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-2657584699469170546 for deletion
+2017-09-19 22:04:57,149 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-2467352788080361140_1156 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-2467352788080361140 for deletion
+2017-09-19 22:04:57,149 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-7380622770373638689_1158 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-7380622770373638689
+2017-09-19 22:04:57,150 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-853642964239772252_1164 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-853642964239772252 for deletion
+2017-09-19 22:04:57,150 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-557556209782985678_1155 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-557556209782985678 for deletion
+2017-09-19 22:04:57,150 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-130376136021343779_1164 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-130376136021343779 for deletion
+2017-09-19 22:04:57,150 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-3753091439694482571_1162 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-3753091439694482571
+2017-09-19 22:04:57,150 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_-128692983880094843_1160 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-128692983880094843 for deletion
+2017-09-19 22:04:57,150 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_2473994106375110845_1159 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_2473994106375110845 for deletion
+2017-09-19 22:04:57,150 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-2657584699469170546_1165 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-2657584699469170546
+2017-09-19 22:04:57,150 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_6781054806397322351_1157 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_6781054806397322351 for deletion
+2017-09-19 22:04:57,151 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling blk_8848977237256324185_1154 file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_8848977237256324185 for deletion
+2017-09-19 22:04:57,151 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-2467352788080361140_1156 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-2467352788080361140
+2017-09-19 22:04:57,151 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-853642964239772252_1164 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-853642964239772252
+2017-09-19 22:04:57,151 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-557556209782985678_1155 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-557556209782985678
+2017-09-19 22:04:57,151 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-130376136021343779_1164 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-130376136021343779
+2017-09-19 22:04:57,152 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_-128692983880094843_1160 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_-128692983880094843
+2017-09-19 22:04:57,152 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_2473994106375110845_1159 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_2473994106375110845
+2017-09-19 22:04:57,152 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_6781054806397322351_1157 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_6781054806397322351
+2017-09-19 22:04:57,153 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted blk_8848977237256324185_1154 at file /usr/local/Cellar/hadoop/hdfs/tmp1/dfs/data/current/blk_8848977237256324185
+2017-09-19 23:40:43,140 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeCommand action: DNA_REGISTER
+2017-09-19 23:40:43,143 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2017-09-19 23:40:43,144 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 0ms

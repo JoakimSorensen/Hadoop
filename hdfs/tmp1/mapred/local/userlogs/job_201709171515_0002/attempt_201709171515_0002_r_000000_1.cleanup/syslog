@@ -1,0 +1,7 @@
+2017-09-18 22:52:26,888 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-09-18 22:52:27,884 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2017-09-18 22:52:28,033 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : null
+2017-09-18 22:52:28,036 INFO org.apache.hadoop.mapred.Task: Runnning cleanup for the task
+2017-09-18 22:52:28,059 INFO org.apache.hadoop.mapred.Task: Task:attempt_201709171515_0002_r_000000_1 is done. And is in the process of commiting
+2017-09-18 22:52:28,066 INFO org.apache.hadoop.mapred.Task: Task 'attempt_201709171515_0002_r_000000_1' done.
+2017-09-18 22:52:28,090 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
